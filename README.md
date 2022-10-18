@@ -1,6 +1,6 @@
 # Welcome to <i>Nuyen Improved</i>
 
-Download and extract (under the green button) ^
+Download and extract (under the green 'code' button usually) ^
 
 The House Rules Folder: <i>Nuyen Improved House Rules</i> Goes in Chummer > customdata
 
