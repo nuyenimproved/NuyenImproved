@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <categories amendoperation="replace">
+    <category>Metahuman</category>
+    <category>Metavariant</category>
+    <category>Metasapient</category>
+  </categories>
+  <metatypes>
+    <!-- Region remove banned metaypes -->
+    <metatype amendoperation="remove" xpathfilter="starts-with(name, 'A.I.')">
+    </metatype>
+    <metatype amendoperation="remove" xpathfilter="starts-with(name, 'Shapeshifter')">
+    </metatype>
+    <metatype amendoperation="remove" xpathfilter="starts-with(name, 'Pixie')">
+    </metatype>
+    <metatype amendoperation="remove" xpathfilter="starts-with(name, 'Pixie')">
+    </metatype>
+    <!-- Region remove lifestyle cost for Dwarf and Troll -->
+    <metatype>
+			<name>Sasquatch</name>
+			<bonus>
+				<lifestylecost />
+			</bonus>
+		</metatype>
+		<metatype>
+			<name>Dwarf</name>
+			<bonus>
+				<lifestylecost />
+			</bonus>
+			<metavariants>
+				<metavariant>
+					<name>Gnome</name>
+					<bonus>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+				<metavariant>
+					<name>Hanuman</name>
+					<bonus>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+				<metavariant>
+					<name>Koborokuru</name>
+					<bonus>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		<metatype>
+			<name>Troll</name>
+			<bonus>
+				<armor group="0">1</armor>
+				<reach>1</reach>
+				<lifestylecost />
+			</bonus>
+			<metavariants>
+				<metavariant>
+					<name>Cyclops</name>
+					<bonus>
+						<reach>1</reach>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+				<metavariant>
+					<name>Fomorian</name>
+					<bonus>
+						<reach>1</reach>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+				<metavariant>
+					<name>Giant</name>
+					<bonus>
+						<reach>1</reach>
+						<lifestylecost />
+					</bonus>
+					<source>RF</source>
+					<page>104</page>
+				</metavariant>
+				<metavariant>
+					<name>Minotaur</name>
+					<bonus>
+						<reach>1</reach>
+						<lifestylecost />
+					</bonus>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		<metatype>
+			<name>Centaur</name>
+			<walk>4/1/0</walk>
+			<run>8/0/0</run>
+			<sprint>4/1/0</sprint>
+      <powers>
+        <power>Search</power>
+        <power select="Kick: DV ({STR} + 2)P, AP 0, +1 Reach">Natural Weapon</power>
+      </powers>
+      <bonus>
+        <lifestylecost />
+      </bonus>
+		</metatype>
+</chummer>
