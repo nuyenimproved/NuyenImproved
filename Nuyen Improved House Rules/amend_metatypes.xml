@@ -112,12 +112,13 @@
 			<walk>4/1/0</walk>
 			<run>8/0/0</run>
 			<sprint>4/1/0</sprint>
-      <powers>
-        <power>Search</power>
-        <power select="Kick: DV ({STR} + 2)P, AP 0, +1 Reach">Natural Weapon</power>
-      </powers>
-      <bonus>
-        <lifestylecost />
-      </bonus>
+			<powers>
+				<power>Search</power>
+				<power select="Kick: DV ({STR} + 2)P, AP 0, +1 Reach">Natural Weapon</power>
+			</powers>
+			<bonus>
+				<lifestylecost />
+			</bonus>
 		</metatype>
+		</metatypes>
 </chummer>

@@ -43,5 +43,33 @@
 			<name>Pariah</name>
 			<hide />
 		</tradition>
+		<tradition>
+			<name>Armanentradition</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Christian Theurgy [Westphalian]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Islam [Licit Qur'anic]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Black Magic [Alt]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Buddhism [Traditionalist]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Christian Theurgy [Vigila Evangelica]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Dianism</name>
+			<hide />
+		</tradition>
 	</traditions>
 </chummer>
