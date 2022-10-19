@@ -193,5 +193,16 @@
         <name>Candle in the Darkness</name>
         <hide />
       </quality>
+
+      <!-- Region Open Up Some technomancer qualities -->
+
+      <quality>
+        <name>Trust Data, Not Lore</name>
+        <required amendoperation='replace' />
+      </quality>
+      <quality>
+        <name>Trust Lore, Not Data</name>
+        <required amendoperation='replace' />
+      </quality>
     </qualities>
 </chummer>
