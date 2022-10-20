@@ -193,6 +193,10 @@
         <name>Candle in the Darkness</name>
         <hide />
       </quality>
+      <quality>
+        <name>Neoteny</name>
+        <hide />
+      </quality>
 
       <!-- Region Open Up Some technomancer qualities -->
 

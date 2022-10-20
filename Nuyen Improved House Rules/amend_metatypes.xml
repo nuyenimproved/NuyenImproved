@@ -52,6 +52,11 @@
 					<bonus>
 						<lifestylecost />
 					</bonus>
+					<qualities>
+						<negative amendoperation="remove">
+						  
+						</negative>
+					  </qualities>
 				</metavariant>
 				<metavariant>
 					<name>Hanuman</name>
