@@ -134,6 +134,7 @@
 				<spec>Medical</spec>
 				<spec>Atomizer</spec>
 				<spec>Ares Redline</spec>
+				<spec>Machine Pistols</spec>
 			</specs>
 		</skill>
 		<skill>
@@ -141,7 +142,6 @@
 			<specs amendoperation="replace">
 				<spec>Assault Rifles</spec>
 				<spec>Cyber-Implant</spec>
-				<spec>Machine Pistols</spec>
 				<spec>Submachine Guns</spec>
 				<spec>Carbines</spec>
 				<spec>Ares Lancer MP Laser</spec>

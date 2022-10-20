@@ -36,6 +36,10 @@
 			<range>Medium/Heavy Machinegun</range>
 			<hide />
 		</weapon>
+		<weapon xpathfilter="starts-with(category, 'Machine Pistols')">
+			<useskill>Pistols</useskill>
+			<spec>Machine Pistols</spec>
+		</weapon>
 	</weapons>
 
 	<!-- Remove the special modifications limits so that multiple weapons may be modded -->
