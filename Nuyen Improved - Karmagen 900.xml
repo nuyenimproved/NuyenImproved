@@ -34,7 +34,7 @@
 	<allowcyberwareessdiscounts>False</allowcyberwareessdiscounts>
 	<maximumarmormodifications>False</maximumarmormodifications>
 	<armordegredation>False</armordegredation>
-	<specialkarmacostbasedonshownvalue>False</specialkarmacostbasedonshownvalue>
+	<specialkarmacostbasedonshownvalue>True</specialkarmacostbasedonshownvalue>
 	<exceedpositivequalities>False</exceedpositivequalities>
 	<exceedpositivequalitiescostdoubled>False</exceedpositivequalitiescostdoubled>
 	<mysaddppcareer>False</mysaddppcareer>
