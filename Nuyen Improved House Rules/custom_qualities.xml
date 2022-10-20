@@ -34,6 +34,7 @@
 			<source>KC</source>
 			<page>97</page>
 		  </quality>
+		  
 		  <quality>
 			<id>fabe5461-999f-4066-8e18-3a5768d009f2</id>
 			<name>Purity Bonus (Adept)</name>
@@ -60,10 +61,10 @@
 					<ess grade="Omegaware">0.0001</ess>
 				</oneof>
 			</forbidden>
-			<source>NA</source>
-			<page>15</page>
+			<source>SR5</source>
+			<page>10</page>
 			<notes>If ever your Magic rating changes, you must remove and re-add this quality to ensure your power points are properly calculated.</notes>
 		</quality>
+
 	</qualities>
-	
 </chummer> 
