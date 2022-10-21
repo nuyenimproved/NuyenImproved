@@ -8,6 +8,82 @@
       <hide />
     </quality>
 
+    <!-- Region Nuyen Improved JOAT et all at Chargen -->
+<quality>
+      <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
+      <name>College Education</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Academic</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>Linguist</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Language</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>School of Hard Knocks</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Street</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>Technical School Education</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Professional</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <id>624fa943-c0a1-44ee-8cd8-3aef4bea3f4b</id>
+      <name>Jack of All Trades Master of None</name>
+      <bonus>
+        <activeskillkarmacost>
+          <name />
+          <val>-1</val>
+          <max>5</max>
+          <condition amendoperation="remove" />
+        </activeskillkarmacost>
+        <activeskillkarmacost>
+          <name />
+          <val>2</val>
+          <min>6</min>
+          <condition amendoperation="remove" />
+        </activeskillkarmacost>
+        <knowledgeskillkarmacostmin>
+          <name />
+          <val>1</val>
+          <max>5</max>
+          <condition amendoperation="remove" />
+        </knowledgeskillkarmacostmin>
+        <knowledgeskillkarmacost>
+          <name />
+          <val>-1</val>
+          <max>5</max>
+          <condition amendoperation="remove" />
+        </knowledgeskillkarmacost>
+        <knowledgeskillkarmacost>
+          <name />
+          <val>2</val>
+          <min>6</min>
+          <condition amendoperation="remove" />
+        </knowledgeskillkarmacost>
+      </bonus>
+    </quality>
+
+
     <!-- Region Nuyen Improved Bans -->
       <quality>
         <name>Erased</name>
