@@ -49,38 +49,234 @@
     <quality>
       <id>624fa943-c0a1-44ee-8cd8-3aef4bea3f4b</id>
       <name>Jack of All Trades Master of None</name>
-      <bonus>
+      <notes>A Nuyen Improved character with Jack of All Trades Master of None may not have any skills at rating 6 or higher.</notes>
+      <bonus amendoperation="replace">
         <activeskillkarmacost>
           <name />
           <val>-1</val>
           <max>5</max>
-          <condition amendoperation="remove" />
         </activeskillkarmacost>
         <activeskillkarmacost>
           <name />
           <val>2</val>
-          <min>6</min>
-          <condition amendoperation="remove" />
+          <min>6</min>  
         </activeskillkarmacost>
         <knowledgeskillkarmacostmin>
           <name />
           <val>1</val>
-          <max>5</max>
-          <condition amendoperation="remove" />
+          <max>5</max>        
         </knowledgeskillkarmacostmin>
         <knowledgeskillkarmacost>
           <name />
           <val>-1</val>
-          <max>5</max>
-          <condition amendoperation="remove" />
+          <max>5</max>          
         </knowledgeskillkarmacost>
         <knowledgeskillkarmacost>
           <name />
           <val>2</val>
           <min>6</min>
-          <condition amendoperation="remove" />
         </knowledgeskillkarmacost>
       </bonus>
+      <forbidden amendoperation="addnode"> <!-- all the active skills... anything at 6 will hide selection of JOAT-->
+        <oneof>
+          <skill>
+            <name>Animal Handling</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Arcana</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Archery</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Armorer</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Artisan</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Automatics</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Blades</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Clubs</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Computer</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Con</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Cybercombat</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Demolitions</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Disguise</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Electronic Warefare</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Escape Artist</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Etiquette</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>First Aid</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Flight</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Forgery</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Gunnery</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Gymnastics</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Hacking</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Hardware</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Heavy Weapons</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Impersonation</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Intimidation</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Leadership</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Locksmith</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Longarms</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Mechanic</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Navigation</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Negotiation</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Palming</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Perception</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Performance</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pilot Aerospace</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pilot Aircraft</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pilot Ground Craft</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pilot Walker</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pilot Watercraft</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Pistols</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Running</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Sneaking</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Software</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Survival</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Swimming</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Throwing Weapons</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Tracking</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Unarmed Combat</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </forbidden> <!--<default>True</default>-->
     </quality>
 
     <!-- Region Nuyen Improved Renaming -->
