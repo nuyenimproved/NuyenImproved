@@ -8,8 +8,40 @@
       <hide />
     </quality>
 
+    <!-- Region Nuyen Improved Cost Adjustments -->
+    <quality>
+      <name>Cyber-snob</name>
+      <karma>-6</karma>
+      <bonus>
+        <disablebiowaregrade>Standard</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+        <disablebiowaregrade>Used</disablebiowaregrade>
+        <disablebiowaregrade>Omegaware</disablebiowaregrade>
+        <disablecyberwaregrade>Standard</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+      </bonus>
+      <required>
+        <oneof>
+          <ess grade="Alphaware">1</ess>
+        </oneof>
+      </required>
+    </quality>
+
+    <!-- One with the matrix is free for technomancers -->
+    <quality>
+      <id>3c83d73e-7aa7-4fe5-8f03-6e983648e2eb</id>
+      <name>One With the Matrix II</name>
+      <karma>0</karma>
+    </quality>
+
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
-<quality>
+    <quality>
       <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
       <name>College Education</name>
       <bonus>
