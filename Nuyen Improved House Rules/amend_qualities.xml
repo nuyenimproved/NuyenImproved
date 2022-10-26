@@ -1,14 +1,13 @@
-<!-- Unrestricted Kill Code Qualities -->
 <chummer>
   <qualities>
 
-    <!-- Region Nuyen Improved Ban Mysad -->
+    <!-- Ban Mysads because they were a mistake -->
     <quality>
       <name>Mystic Adept</name>
       <hide />
     </quality>
 
-    <!-- Region Nuyen Improved Cost Adjustments -->
+    <!-- Region Nuyen Improved Quality Adjustments -->
     <quality>
       <name>Cyber-snob</name>
       <karma>-6</karma>
@@ -61,8 +60,95 @@
           <attribute>LOG</attribute>
           <limittoskill>Negotiation</limittoskill>
         </swapskillattribute>
+        <notes>This quality allows the character to substitute Logic for Charisma in all their Negotiation rolls.</notes>
       </bonus>
     </quality>
+
+    <quality>
+      <name>Special Modifications</name>
+        <notes>This quality can be applied to all of a character's weapons.
+                Characters using someone else's special weapon do not receive the bonus unless they also possess the special modifications quality at the same level or higher. 
+                Elemental weapons cannot be changed to Acid, Radiation, or Pollution damage types. Weapons which do not intrinsically possess an elemental damage type cannot have one applied as an effect of this quality. 
+        </notes>
+        <bonus amendoperation="replace" />
+    </quality>
+    
+    <quality>
+      <name>Black Market Pipeline</name>
+      <notes>This applies at chargen, but only to items within a given category. For example, with the category of Vehicles, vehicle mods would not count; with the category of Electronics, modifications for glasses or cameras would count.</notes>
+    </quality>
+
+    <quality>
+      <name>Dealer Connection</name>
+      <notes>This applies at chargen, but only to the base costs of the vehicles/drones a character purchases, not any modifications or accessories</notes>
+    </quality>
+
+    <quality>
+      <name>Home Ground</name>
+      <notes>The selected benefit applies to an entire district of Seattle (Renton, Bellevue, Snohomish, etc.) When using the Digital Turf option, players cannot own a Host, but do have full legal access at either the user or sysop level to the Host with all the applicable boons and considerations. The Host in question is considered to be an R1 Data Hosts with stats decided by the player at time of purchase.</notes>
+    </quality>
+
+    <quality>
+      <name>Lightning Reflexes</name>
+      <notes>The initiative die granted by Lightning Reflexes stacks with permanent sources of initiative. This applies only to physical initiative, not astral or matrix.</notes>
+    </quality>
+
+    <quality>
+      <name>Null Wizard</name>
+      <notes>Add Summoning to the list of skills that are not usable.</notes>
+      <bonus amendoperation="append">
+        <skilldisable>Summoning</skilldisable>
+      </bonus>
+    </quality>
+
+    <quality>
+      <name>Strive For Perfection</name>
+      <notes>Characters with Strive For Perfection may use any weapon, including unarmed attacks, with the advantage that it halves the penalty for any called shot. When combined with other ways to reduce the called shot penalty, apply this quality’s effects last
+
+        However, the character must always make called shots, this uses their free action(s) as usual. If the character does not have enough free actions to make a called shot (eg: The multiple attack free action, shooting while running, arguing with the decker over DNI). The character will not make the attack, they have a reputation to uphold!
+        Special actions like suppressive fire that do not support called shots are not subject to this limitation</notes>
+    </quality>
+
+    <quality>
+      <name>Trust Fund I</name>
+      <required>
+        <oneof>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </required>
+      <notes>This quality may only be taken at Gen. The character must have the National, Limited Corporate, or Corporate SINner Quality as a prerequisite; losing the SIN removes this quality. Advanced lifestyles may be used with this quality, but any extra nuyen expenses incurred in modifying the lifestyle still come out of the character's pockets. Any decrease to the cost of a lifestyle does not increase the amount of nuyen gained from this quality.</notes>
+    </quality>
+
+    <quality>
+      <name>Trust Fund II</name>
+      <required>
+        <oneof>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </required>
+      <notes>This quality may only be taken at Gen. The character must have the National, Limited Corporate, or Corporate SINner Quality as a prerequisite; losing the SIN removes this quality. Advanced lifestyles may be used with this quality, but any extra nuyen expenses incurred in modifying the lifestyle still come out of the character's pockets. Any decrease to the cost of a lifestyle does not increase the amount of nuyen gained from this quality.</notes>
+    </quality>
+
+    <quality>
+      <name>Trust Fund III</name>
+      <required>
+        <oneof>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </required>
+      <notes>This quality may only be taken at Gen. The character must have the National, Limited Corporate, or Corporate SINner Quality as a prerequisite; losing the SIN removes this quality. Advanced lifestyles may be used with this quality, but any extra nuyen expenses incurred in modifying the lifestyle still come out of the character's pockets. Any decrease to the cost of a lifestyle does not increase the amount of nuyen gained from this quality.</notes>
+    </quality>
+
+    <quality>
+      <name>Trust Fund IV</name>
+      <required>
+        <oneof>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </required>
+      <notes>This quality may only be taken at Gen. The character must have the National, Limited Corporate, or Corporate SINner Quality as a prerequisite; losing the SIN removes this quality. Advanced lifestyles may be used with this quality, but any extra nuyen expenses incurred in modifying the lifestyle still come out of the character's pockets. Any decrease to the cost of a lifestyle does not increase the amount of nuyen gained from this quality.</notes>
+    </quality>
+
 
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
     <quality>
@@ -105,7 +191,7 @@
     <quality>
       <id>624fa943-c0a1-44ee-8cd8-3aef4bea3f4b</id>
       <name>Jack of All Trades Master of None</name>
-      <notes>A Nuyen Improved character with Jack of All Trades Master of None may not have any skills at rating 6 or higher.</notes>
+      <notes>Applies during Character Generation. However, rather than a karma penalty for skill ranks higher than 5, characters may never take ranks higher than 5, ever. Any character that already has a skill rank higher than 5 cannot take this quality.</notes>
       <bonus amendoperation="replace">
         <activeskillkarmacost>
           <name />
@@ -343,12 +429,43 @@
     <quality>
       <id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
       <name>Transhuman</name>
+      <bonus>
+        <selectquality amendoperation='replace'>
+          <quality>Allergy (Common, Mild)</quality>
+          <quality>Astral Beacon</quality>
+          <quality>Insomnia (Basic)</quality>
+          <quality>Allergy (Uncommon, Moderate)</quality>
+          <quality>Blighted (12 Months)</quality>
+          <quality>Blind</quality>
+          <quality>Deaf</quality>
+          <quality>Dimmer Bulb</quality>
+          <quality>Illness</quality>
+          <quality>Incomplete Deprogramming</quality>
+          <quality>Low Pain Tolerance</quality>
+          <quality>Paraplegic</quality>
+          <quality>Phobia (Common, Moderate)</quality>
+          <quality>Poor Self Control (Combat Monster)</quality>
+          <quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
+          <quality>Poor Self Control (Compulsive IV, Personal)</quality>
+          <quality>Reduce Sense (Touch)</quality>
+          <quality>Weak Immune System</quality>
+        </selectquality>
+      </bonus>
+      
+      <notes>
+        This quality is renamed to 'Transhuman' and only available at chargen. It is up to the individual player to determine the origin of their character’s transhumanism (which could be that they are an escaped corporate prototype, or a mutant) 
+        The bioware chosen as a benefit of the quality cannot be Used, and can neither be removed nor upgraded. Assensing performed on the character should treat the implants as if they are Deltaware.
+      </notes> 
     </quality>
 
 
     <!-- Region Nuyen Improved Bans -->
       <quality>
         <name>Erased</name>
+        <hide />
+      </quality>
+      <quality>
+        <name>Pacifist Adept</name>
         <hide />
       </quality>
       <quality>
