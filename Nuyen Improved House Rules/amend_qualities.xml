@@ -40,6 +40,18 @@
       <karma>0</karma>
     </quality>
 
+    <!-- Gifted Healer applies +1 to first aid -->
+    <quality>
+      <id>a8747e12-08b1-4665-8e48-23c30c047be6</id>
+      <name>Gifted Healer</name>
+      <bonus>
+        <specificskill>
+          <name>First Aid</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+    </quality>
+
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
     <quality>
       <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
