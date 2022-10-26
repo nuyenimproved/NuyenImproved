@@ -150,6 +150,18 @@
     </quality>
 
 
+    <quality>
+      <id>1ae3ce29-5249-4477-952a-6074a212e197</id>
+      <name>Reduced Sense (Smell)</name>
+      <karma>0</karma>
+    </quality>
+    <quality>
+      <id>4d3a1151-0bc3-4858-98e1-fe930cd98425</id>
+      <name>Reduced Sense (Taste)</name>
+      <karma>0</karma>
+    </quality>
+
+
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
     <quality>
       <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
