@@ -30,16 +30,37 @@
 			<name>Renraku Red Samurai Katana</name>
 			<avail>24F</avail>
 			<cost>30000</cost>
+			<hide />
 		</weapon>
 		<weapon>
 			<name>Stoner-Ares M-22A1</name>
 			<range>Medium/Heavy Machinegun</range>
 			<hide />
 		</weapon>
+		<weapon>
+			<name>Krime Ripper<</name>
+			<range>Medium/Heavy Machinegun</range>
+			<hide />
+		</weapon>
+		<weapon>
+			<name>Krime Calliope</name>
+			<range>Medium/Heavy Machinegun</range>
+			<hide />
+		</weapon>
+		<weapon>
+			<name>Krime Carpet</name>
+			<range>Medium/Heavy Machinegun</range>
+			<hide />
+		</weapon>
+		<weapon xpathfilter="contains(name,'Krime Party')">
+			<hide />
+		</weapon>
+		
 		<weapon xpathfilter="starts-with(category, 'Machine Pistols')">
 			<useskill>Pistols</useskill>
 			<spec>Machine Pistols</spec>
 		</weapon>
+		
 	</weapons>
 
 	<!-- Remove the special modifications limits so that multiple weapons may be modded -->

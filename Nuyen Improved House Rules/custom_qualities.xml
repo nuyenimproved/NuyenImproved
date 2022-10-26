@@ -81,6 +81,22 @@
       		<page>1</page>
 			<notes>This will set the default character sheet atribute for all pilot skills to INT</notes>
 		  </quality>
+
+		  <quality>
+			<id>d0e264fc-4296-48fb-880f-c99fd27cf347</id>
+			<name>Logical Gunner</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<bonus>
+				<swapskillattribute>
+					<attribute>Log</attribute>
+					<limittoskill>Gunnery</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
+			<source>SR5</source>
+      		<page>1</page>
+			<notes>This will set the default character sheet atribute for the gunnery skill to LOG</notes>
+		  </quality>
 		  
 		  <quality>
 			<id>fabe5461-999f-4066-8e18-3a5768d009f2</id>
