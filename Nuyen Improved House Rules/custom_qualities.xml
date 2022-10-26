@@ -34,6 +34,21 @@
 			<source>KC</source>
 			<page>97</page>
 		  </quality>
+
+		  <quality>
+			<id>923b7fc8-be95-4578-a71d-a3a711d1f5f1</id>
+			<name>Smokey Eyed Wheelbabe</name>
+			<karma>2</karma>
+			<category>Positive</category>
+			<bonus />
+			<forbidden>
+			  <oneof>
+				<quality>Steely Eyed Wheelman</quality>
+			  </oneof>
+			</forbidden>
+			<source>RF</source>
+      		<page>150</page>
+		  </quality>
 		  
 		  <quality>
 			<id>fabe5461-999f-4066-8e18-3a5768d009f2</id>
