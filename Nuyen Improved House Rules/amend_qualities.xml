@@ -52,6 +52,18 @@
       </bonus>
     </quality>
 
+    <quality>
+      <id>41416949-62eb-4638-9457-fd7e833cea58</id>
+      <name>Master Debater</name>
+      <bonus>
+        <swapskillspecattribute amendoperation="remove"/>
+        <swapskillattribute>
+          <attribute>LOG</attribute>
+          <limittoskill>Negotiation</limittoskill>
+        </swapskillattribute>
+      </bonus>
+    </quality>
+
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
     <quality>
       <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>

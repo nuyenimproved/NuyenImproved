@@ -15,7 +15,7 @@
     along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     You can obtain the full source code for Chummer5a at
-    https://github.com/chummer5a/chummer5a
+    https://github.com/chummer5a/chummer5ad
 -->
 
 <chummer>
@@ -48,6 +48,38 @@
 			</forbidden>
 			<source>RF</source>
       		<page>150</page>
+		  </quality>
+
+		  <quality>
+			<id>d0e264fc-4296-48fb-880f-c99fd27cf347</id>
+			<name>Intuitive Pilot</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<bonus>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Aerospace</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Aircraft</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Ground Craft</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Walker</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Watercraft</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
+			<source>SR5</source>
+      		<page>1</page>
+			<notes>This will set the default character sheet atribute for all pilot skills to INT</notes>
 		  </quality>
 		  
 		  <quality>
