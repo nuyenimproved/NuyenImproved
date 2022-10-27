@@ -43,5 +43,46 @@
 			<name>Snake Mesh Socks</name>
 			<armor>0</armor>
 		</armor>
+
+		<armor xpathfilter="starts-with(name, 'Mortimer of London:')">
+			<hide />
+		</armor>
+		<armor xpathfilter="starts-with(name, 'Armanté')">
+			<hide />
+		</armor>
+		<armor xpathfilter="starts-with(name, 'Vashon Island:')">
+			<hide />
+		</armor>
+		<armor xpathfilter="starts-with(name, 'Zoé:')">
+			<hide />
+		</armor>
+		<armor xpathfilter="starts-with(name, 'Securetech PPP:')">
+			<hide />
+		</armor>
+
+		<armor xpathfilter="starts-with(name, 'Franzinger Fashion Tenor:')">
+			<hide />
+		</armor>
+		<armor xpathfilter="starts-with(name, 'Rheingold Pro Tec Plus:')">
+			<hide />
+		</armor>
+		
+		
+		<armor>
+			<name>Forearm Guards</name>
+			<hide />
+		</armor>
+		
+		<armor>
+			<id>acc71656-e891-4bb2-a8ef-fb077bb5eefd</id>
+      		<name>Firefighter 'Bunker Gear'</name>
+		</armor>
+		<armor>
+			<id>5116893c-8102-4397-b7b8-f568f50560ab</id>
+			<name>Firefighter 'Bunker Gear' Helmet</name>
+		</armor>
+
+
+
 	</armors>
 </chummer>
