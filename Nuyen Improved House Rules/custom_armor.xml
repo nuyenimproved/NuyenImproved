@@ -91,6 +91,7 @@
 			<avail>6</avail>
 			<cost>500 * Rating</cost>
 			<bonus>
+				<selecttext />
 			</bonus>
 			<source>RG</source>
 			<page>70</page>

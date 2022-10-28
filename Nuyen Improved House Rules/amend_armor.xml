@@ -110,8 +110,11 @@
 			<id>5116893c-8102-4397-b7b8-f568f50560ab</id>
 			<name>Firefighter 'Bunker Gear' Helmet</name>
 		</armor>
-
-
-
+		<armor>
+			<name>Armor Clothing</name>
+			<bonus>
+				<selecttext />
+			</bonus>
+		</armor>
 	</armors>
 </chummer>
