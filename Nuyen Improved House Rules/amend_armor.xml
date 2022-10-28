@@ -42,8 +42,12 @@
 		<armor>
 			<name>Snake Mesh Socks</name>
 			<armor>0</armor>
+			<hide />
 		</armor>
-
+		<armor>
+			<name>EVO/Yamatetsu Naval Technologies Rampart</name>
+			<hide />
+		</armor>
 		<armor xpathfilter="starts-with(name, 'Mortimer of London:')">
 			<hide />
 		</armor>
@@ -53,26 +57,51 @@
 		<armor xpathfilter="starts-with(name, 'Vashon Island:')">
 			<hide />
 		</armor>
-		<armor xpathfilter="starts-with(name, 'Zoé:')">
+		<armor xpathfilter="starts-with(name, 'Zoé: Heritage ')">
 			<hide />
 		</armor>
 		<armor xpathfilter="starts-with(name, 'Securetech PPP:')">
 			<hide />
 		</armor>
-
 		<armor xpathfilter="starts-with(name, 'Franzinger Fashion Tenor:')">
 			<hide />
 		</armor>
 		<armor xpathfilter="starts-with(name, 'Rheingold Pro Tec Plus:')">
 			<hide />
 		</armor>
-		
-		
+		<armor xpathfilter="contains(name, 'Helmet')">
+			<hide />
+		</armor>
+		<armor xpathfilter="contains(name, 'Ballistic Mask')">
+			<hide />
+		</armor>
+		<armor xpathfilter="contains(name, 'CCOB')">
+			<hide />
+		</armor>
 		<armor>
 			<name>Forearm Guards</name>
 			<hide />
 		</armor>
+		<armor>
+			<name>Zoé: Executive Suite</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Zoé: Nightshade/Moonsilver</name>
+			<hide />
+		</armor>
+		<armor>
+			<id>739b029d-b2a0-48cb-ac2e-51636fc495c2</id>
+			<name>Zoé: Second Skin</name>
+			<category>High-Fashion Armor Clothing</category>
+			<armoroverride amendoperation="remove" ></armoroverride>
+		</armor>
 		
+		<armor xpathfilter="contains(name, 'Shield')">
+			<armor>0</armor>
+		</armor>
+
+		<!-- Nuyen Improved Renames -->
 		<armor>
 			<id>acc71656-e891-4bb2-a8ef-fb077bb5eefd</id>
       		<name>Firefighter 'Bunker Gear'</name>

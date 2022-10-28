@@ -89,7 +89,7 @@
 			<category>Positive</category>
 			<bonus>
 				<swapskillattribute>
-					<attribute>Log</attribute>
+					<attribute>LOG</attribute>
 					<limittoskill>Gunnery</limittoskill>
 				</swapskillattribute>
 		  	</bonus>
