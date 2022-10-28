@@ -24,32 +24,27 @@
 			<name>Kick (Centaur)</name>
 			<ap>0</ap>
 			<spec>Primal</spec>
-			<hide />
-		  </weapon>
-		<weapon>
+			<hide /> 
+		</weapon> 
+		 <weapon>
 			<name>Renraku Red Samurai Katana</name>
 			<avail>24F</avail>
-			<cost>30000</cost>
-			<hide />
+			<cost>50000</cost>
 		</weapon>
 		<weapon>
 			<name>Stoner-Ares M-22A1</name>
-			<range>Medium/Heavy Machinegun</range>
 			<hide />
 		</weapon>
 		<weapon>
-			<name>Krime Ripper<</name>
-			<range>Medium/Heavy Machinegun</range>
+			<name>Krime Ripper</name>
 			<hide />
 		</weapon>
 		<weapon>
 			<name>Krime Calliope</name>
-			<range>Medium/Heavy Machinegun</range>
 			<hide />
 		</weapon>
 		<weapon>
 			<name>Krime Carpet</name>
-			<range>Medium/Heavy Machinegun</range>
 			<hide />
 		</weapon>
 		<weapon xpathfilter="contains(name,'Krime Party')">
@@ -64,12 +59,10 @@
 	</weapons>
 
 	<!-- Remove the special modifications limits so that multiple weapons may be modded -->
-<accessories>
-	<accessory xpathfilter="starts-with(name, 'Special Modification:')">
-		<specialmodification>True</specialmodification>
-		<required amendoperation='replace'>
-		</required>
-	  </accessory>
-</accessories>
-	
+		<accessories>
+			<accessory xpathfilter="starts-with(name, 'Special Modification:')">
+				<specialmodification>True</specialmodification>
+				<required amendoperation='replace' />
+			</accessory>
+		</accessories>
 </chummer>
