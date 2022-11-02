@@ -472,6 +472,12 @@
 
 
     <!-- Region Nuyen Improved Bans -->
+
+    
+    <quality>
+      <name>Common Sense</name>
+      <hide />
+    </quality>
       <quality>
         <name>Erased</name>
         <hide />
