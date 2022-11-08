@@ -706,6 +706,24 @@
         <hide />
       </quality>
 
+      <quality>
+        <name>Trust Fund I</name>
+        <hide />
+      </quality>
+      <quality>
+        <name>Trust Fund II</name>
+        <hide />
+      </quality>
+      <quality>
+        <name>Trust Fund III</name>
+        <hide />
+      </quality>
+      <quality>
+        <name>Trust Fund IV</name>
+        <hide />
+      </quality>
+
+
       <!-- Region Open Up Some technomancer qualities -->
 
       <quality>
