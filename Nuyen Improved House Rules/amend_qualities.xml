@@ -32,6 +32,41 @@
       </required>
     </quality>
 
+
+    <!-- SINner applies to lifestyle -->
+
+
+    <quality>
+      <name>SINner (Corporate Limited)</name>
+      <bonus>
+        <lifestylecost>15</lifestylecost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>SINner (Criminal)</name>
+      <bonus>
+        <lifestylecost>10</lifestylecost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>SINner (National)</name>
+      <bonus>
+        <lifestylecost>10</lifestylecost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>SINner (Corporate)</name>
+      <bonus>
+        <lifestylecost>20</lifestylecost>
+      </bonus>
+    </quality>
+
+    
+    
+    
+    
+
+
     <!-- One with the matrix is free for technomancers -->
     <quality>
       <id>3c83d73e-7aa7-4fe5-8f03-6e983648e2eb</id>
