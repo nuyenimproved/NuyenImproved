@@ -76,7 +76,7 @@
 			<hide />
 		</armor>
 		<armor xpathfilter="contains(name, 'CCOB')">
-			<hide />
+			<armor>0</armor>
 		</armor>
 		<armor>
 			<name>Forearm Guards</name>
