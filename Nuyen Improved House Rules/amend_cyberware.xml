@@ -41,6 +41,10 @@
 			<name>Junkyard Jaw</name>
 			<avail>8R</avail>
 		</cyberware>
+		<cyberware>
+			<name>Control Rig Booster</name>
+			<hide />
+		</cyberware>
 				<!--
 					Hide the German skilljack because it's stupid
 					Set skilljack to flat 0.1 ess and R*1000 cost
@@ -60,5 +64,7 @@
 			<id>60485c4e-042f-44f6-ad89-324003223f73</id>
 			<ess>Rating * 0.1</ess>
 		  </cyberware>
+
+		
 	</cyberwares>
 </chummer>
