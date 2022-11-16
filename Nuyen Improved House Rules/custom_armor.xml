@@ -121,5 +121,32 @@
 			<source>RG</source>
 			<page>70</page>
 		  </armor>
+
+		  <armor>
+			<id>6e9bbe4e-bf89-4894-b154-7dbea4446f67</id>
+			<name>Sleeping Tiger</name>
+			<category>High-Fashion Armor Clothing</category>
+			<armor>13</armor>
+			<armorcapacity>10</armorcapacity>
+			<avail>10</avail>
+			<cost>13500</cost>
+			<wirelessbonus>
+			  <limitmodifier>
+				<limit>Social</limit>
+				<value>1</value>
+				<condition>LimitCondition_Visible</condition>
+			  </limitmodifier>
+			</wirelessbonus>
+			<mods>
+			  <name>Custom Fit</name>
+			  <name>Newest Model</name>
+			  <name rating="3">Ruthenium Polymer Coating</name>
+			</mods>
+			<gears>
+			  <usegear>Holster</usegear>
+			</gears>
+			<source>RG</source>
+			<page>61</page>
+		  </armor>
 	</armors>
 </chummer>
