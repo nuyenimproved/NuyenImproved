@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <mentors>
+    <mentor>
+      <id>0242ba67-f93b-44e1-a1ad-b0d6f9051525</id>
+      <name>Sea</name>
+      <advantage>All: +2 dice for Swimming Tests.</advantage>
+      <disadvantage>You must make a Charisma + Willpower (3) Test to give away something you own or be charitable in some way.</disadvantage>
+      <bonus>
+        <specificskill>
+          <name>Swimming</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <choices>
+        <choice>
+          <name>Magician: +2 dice summoning spirits of water</name>
+        </choice>
+        <choice>
+          <name>Adept: 1 free level of Improved Ability on an athletic skill</name>
+          <bonus>
+            <specificpower>
+              <name>Improved Ability (skill)</name>
+              <val>1</val>
+              <bonusoverride>
+                <selectskill skillgroup="Athletics" minimumrating="1">
+                  <val>Rating</val>
+                  <!-- Hero Lab says this is not RAW <applytorating>True</applytorating> -->
+                </selectskill>
+              </bonusoverride>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+      <source>SR5</source>
+      <page>323</page>
+    </mentor>
+  </mentors>
+</chummer>
