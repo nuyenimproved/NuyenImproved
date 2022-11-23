@@ -125,6 +125,11 @@
 
     <quality>
       <name>Lightning Reflexes</name>
+      <bonus>
+        <dodge>1</dodge>
+        <initiative precedence="0">1</initiative>
+        <initiativepass precedence="-1">1</initiativepass>
+      </bonus>
       <notes>The initiative die granted by Lightning Reflexes stacks with permanent sources of initiative. This applies only to physical initiative, not astral or matrix.</notes>
     </quality>
 
