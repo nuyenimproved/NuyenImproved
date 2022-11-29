@@ -55,7 +55,10 @@
 			<useskill>Pistols</useskill>
 			<spec>Machine Pistols</spec>
 		</weapon>
-		
+		<weapon>
+			<name>Krime Confederate</name>
+			<avail>20F</avail>
+		</weapon>
 	</weapons>
 
 	<!-- Remove the special modifications limits so that multiple weapons may be modded -->
