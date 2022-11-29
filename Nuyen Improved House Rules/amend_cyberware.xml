@@ -36,7 +36,12 @@
 			<hide />
 		</grade>
 	</grades>
+
 	<cyberwares>
+		<cyberware>
+			<name>Internal Router</name>
+			<hide />
+		</cyberware>
 		<cyberware>
 			<name>Junkyard Jaw</name>
 			<avail>8R</avail>

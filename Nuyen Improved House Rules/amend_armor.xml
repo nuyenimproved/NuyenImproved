@@ -111,4 +111,10 @@
 			<name>Firefighter 'Bunker Gear' Helmet</name>
 		</armor>
 	</armors>
+	<mods>
+		<mod>
+			<name>Universal Mirror Material</name>
+			<hide />
+		</mod>
+	</mods>
 </chummer>
