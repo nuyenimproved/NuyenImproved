@@ -86,6 +86,16 @@
       </bonus>
     </quality>
 
+    <!-- reduced sense (Smell), (Taste) to 0 -->
+
+    <quality>
+      <name>Reduced Sense (Smell)</name>
+      <karma>0</karma>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Taste)</name>
+      <karma>0</karma>
+    </quality>
     <quality>
       <id>41416949-62eb-4638-9457-fd7e833cea58</id>
       <name>Master Debater</name>
