@@ -28,7 +28,12 @@
     <gear>
       <name>Fuchi Cyber-Ex</name>
       <hide />
-    </gear> 
+    </gear>
+    
+    <gear>
+      <name>Kitbashed Sleeper</name>
+      <hide />
+    </gear>
 
   </gears>
 </chummer>
