@@ -522,8 +522,10 @@
 
 
     <!-- Region Nuyen Improved Bans -->
-
-    
+    <quality>
+      <name>Chosen Follower</name>
+      <hide />
+    </quality>
     <quality>
       <name>Common Sense</name>
       <hide />
