@@ -17,36 +17,23 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<!--This file is part a series of data files created for r/NeonAnarchy.
-
-	You can learn more at
-	https://www.reddit.com/r/NeonAnarchy
--->
 <chummer>
 	<grades>
 		<grade>
-			<name>Gammaware</name>
-			<hide />
-		</grade>
-		<grade>
-			<name>Omegaware</name>
-			<hide />
-		</grade>
+            <id>38100d38-dcc2-47d8-b89c-cc02e7d00ae6</id>
+            <name>Used (With Biocompatible Quality)</name>
+            <ess>1.2</ess>
+            <cost>0.75</cost>
+            <devicerating>2</devicerating>
+            <avail>-4</avail>
+            <source>SR5</source>
+            <page>451</page>
+          </grade>
+          <required>
+            <oneof>
+              <quality>Biocompatibility (Bioware)</quality>
+              <quality>Biocompatibility (Cyberware)</quality>
+            </oneof>
+          </required>
 	</grades>
-	<biowares>
-		<bioware>
-			<name>Immunization</name>
-			<hide />
-		</bioware>
-	</biowares>
-	<biowares>
-		<bioware>
-			<name>Immunization</name>
-			<hide />
-		</bioware>
-		<bioware>
-			<name>Adapsin</name>
-			<hide />
-		</bioware>
-	</biowares>
 </chummer>
