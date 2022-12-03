@@ -563,7 +563,11 @@
         <hide />
       </quality>
       <quality>
-        <name>Brand  Loyalty</name>
+        <name>Brand Loyalty (Product)</name>
+        <hide />
+      </quality>
+      <quality>
+        <name>Brand Loyalty (Manufacturer)</name>
         <hide />
       </quality>
       <quality>
