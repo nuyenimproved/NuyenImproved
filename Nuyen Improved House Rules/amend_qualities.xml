@@ -214,16 +214,6 @@
 
     <!-- Region Nuyen Improved JOAT et all at Chargen -->
     <quality>
-      <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
-      <name>College Education</name>
-      <bonus>
-        <skillcategorykarmacost>
-          <name>Academic</name>
-          <condition amendoperation="remove" />
-        </skillcategorykarmacost>
-      </bonus>
-    </quality>
-    <quality>
       <name>Linguist</name>
       <bonus>
         <skillcategorykarmacost>
@@ -755,5 +745,27 @@
         <name>Trust Lore, Not Data</name>
         <required amendoperation='replace' />
       </quality>
+
+      <!-- Region Made Man -->
+      <quality>
+        <id>45be40cc-a21a-4771-b47d-a532ea60b205</id>
+        <name>Made Man</name>
+        <karma>5</karma>
+        <category>Positive</category>
+        <bonus amendoperation='replace' >
+          <addcontact >
+            <connection>4</connection>
+            <forcedloyalty>3</forcedloyalty>
+            <free />
+          </addcontact>
+          <mademan />
+        </bonus>
+        <notes>As we do not use the rules for Group contacts, this quality provides a Connection 4, Loyalty 3 Contact that has a +2 bonus on availability tests to acquire gear they have a proficiency in.
+
+          The player is expected to be fairly open about their allegiances; visible tattoos are a common choice. Whether this presents an advantage or disadvantage in a given situation is up to the GM; it is expected that a known and favored member of a Syndicate will face greater fear, respect, admiration and revulsion than the average criminal or runner. 
+
+        </notes>
+      </quality>
+
     </qualities>
 </chummer>
