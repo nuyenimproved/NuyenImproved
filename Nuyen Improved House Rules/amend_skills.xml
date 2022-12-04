@@ -243,8 +243,6 @@
 		  <skill>
 			<name>Sneaking</name>
 			<specs>
-			  <spec>Desert</spec>
-			  <spec>Jungle</spec>
 			  <spec>Street</spec>
 			  <spec>Indoors</spec>
 			  <spec>Crowds</spec>
