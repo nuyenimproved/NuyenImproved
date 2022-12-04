@@ -21,6 +21,11 @@
 <chummer>
 	<weapons>
 		<weapon>
+			<name>Flametosser</name>
+			<useskill>Unarmed</useskill>
+			<spec>Glandular</spec>
+		  </weapon>
+		<weapon>
 			<name>Kick (Centaur)</name>
 			<ap>0</ap>
 			<spec>Primal</spec>
