@@ -66,6 +66,27 @@
 			<ess>Rating * 0.1</ess>
 		  </cyberware>
 
+		  <cyberware>
+			<id>cb86075d-7d60-4618-9698-9e9268a28989</id>
+			<name>Breast Implants</name>
+			<ess>0.1</ess>
+			<capacity>0</capacity>
+			<avail>2</avail>
+			<cost>500</cost>
+			<source>CF</source>
+			<page>73</page>
+		  </cyberware>
+		  <cyberware>
+			<id>21953b9b-43e8-41a9-af03-5af71797585b</id>
+			<name>Breast Implants 2.0</name>
+			<ess>0.2</ess>
+			<capacity>[2]</capacity>
+			<avail>4</avail>
+			<cost>2000</cost>
+			<source>CF</source>
+			<page>73</page>
+		  </cyberware>
+
 		
 	</cyberwares>
 </chummer>
