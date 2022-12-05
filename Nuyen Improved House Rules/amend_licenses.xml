@@ -20,19 +20,20 @@
 
 <chummer>
 	<licenses amendoperation="replace">
-		<license>Firearms License</license>
-		<license>Melee Weapons License</license>
-		<license>Concealed Carry License</license>
-		<license>Matrix License</license>
-		<license>Magic License</license>
-		<license>Drone License</license>
-		<license>Pharmaceuticals License</license>
-		<license>Explosives License</license>
-		<license>Armour License</license>
-		<license>Exotic Animal License</license>
-		<license>Restricted Armor License</license>
-		<license>Software License</license>
 		<license>Archery License</license>
-		<license>Vehicle License</license>
+		<license>Concealed Carry License</license>
+		<license>Drone Operators License</license>
+		<license>Explosives License</license>
+		<license>Exotic Animal Registration</license>
+		<license>Firearms License</license>
+		<license>Magic Registration</license>
+		<license>Melee Weapons License</license>
+		<license>Matrix Specialist Certification</license>
+		<license>Pharmaceuticals License</license>
+		<license>Restricted Armor License</license>
+		<license>Restricted Vehicle License</license>
+		<license>Restricted 'ware License</license>
+		<license>[Vocational Certification]</license>
+		<license>[Other License]</license>
 	</licenses>
 </chummer>
