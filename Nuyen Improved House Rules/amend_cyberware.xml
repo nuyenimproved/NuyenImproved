@@ -65,7 +65,12 @@
 			<id>60485c4e-042f-44f6-ad89-324003223f73</id>
 			<ess>Rating * 0.1</ess>
 		  </cyberware>
-
+		  <cyberware>
+			<name>False Face</name>
+			<category>Headware</category>
+			<ess>0.5</ess>
+			<capacity>[2]</capacity>
+		  </cyberware>
 		  <cyberware>
 			<id>cb86075d-7d60-4618-9698-9e9268a28989</id>
 			<name>Breast Implants</name>
