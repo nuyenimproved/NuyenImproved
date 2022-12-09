@@ -503,13 +503,26 @@
           <quality>Weak Immune System</quality>
         </selectquality>
       </bonus>
-      
       <notes>
         This quality is renamed to 'Transhuman' and only available at chargen. It is up to the individual player to determine the origin of their character’s transhumanism (which could be that they are an escaped corporate prototype, or a mutant) 
         The bioware chosen as a benefit of the quality cannot be Used, and can neither be removed nor upgraded. Assensing performed on the character should treat the implants as if they are Deltaware.
       </notes> 
     </quality>
 
+    <quality>
+      <id>7b051d98-e95b-48f9-8fbb-dae69a739913</id>
+      <name>No Runner Left Behind</name>
+    </quality>
+
+    <quality>
+      <name>Steely Eyed Wheelman</name>
+      <forbidden>
+				<oneof>
+				  <quality>Steely Eyed Pilot</quality>
+				  <quality>Smokey Eyed Wheelbabe</quality>
+				</oneof>
+			</forbidden>
+    </quality>
 
     <!-- Region Nuyen Improved Bans -->
     <quality>
@@ -764,7 +777,11 @@
           The player is expected to be fairly open about their allegiances; visible tattoos are a common choice. Whether this presents an advantage or disadvantage in a given situation is up to the GM; it is expected that a known and favored member of a Syndicate will face greater fear, respect, admiration and revulsion than the average criminal or runner. 
 
         </notes>
+        <forbidden>
+					<oneof>
+					  <quality>Underworld Soldier</quality>
+					</oneof>
+				</forbidden>
       </quality>
-
     </qualities>
 </chummer>
