@@ -67,7 +67,6 @@
       <source>SR5</source>
       <page>1</page>
     </mentor>
-
     <mentor>
       <id>50b20b8c-8cf4-4b92-95ea-b0c8bbf560b0</id>
       <name>Fox</name>
@@ -93,8 +92,7 @@
       </choices>
       <source>SR5</source>
       <page>1</page>
-    </mentor>
-    
+    </mentor>   
     <mentor>
       <id>bcf60ea4-577a-4487-9996-6c40a86294c5</id>
       <name>Squirrel</name>

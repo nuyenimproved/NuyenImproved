@@ -525,6 +525,13 @@
     </quality>
 
     <!-- Region Nuyen Improved Bans -->
+
+    
+    <quality>
+      <name>Astral Hazing</name>
+      <hide />
+    </quality>
+
     <quality>
       <name>Chosen Follower</name>
       <hide />

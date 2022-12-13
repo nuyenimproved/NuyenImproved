@@ -143,35 +143,34 @@
 				  <quality>Steely Eyed Wheelman</quality>
 				  <quality>Smokey Eyed Wheelbabe</quality>
 				</oneof>
-			</forbidden>
-			
+			</forbidden>	
 		</quality>
 
 		<quality>
-				<id>75d1371f-7b93-4b1f-8173-c14b5ed25532</id>
-				<name>Underworld Soldier</name>
-				<karma>5</karma>
-				<category>Positive</category>
-				<bonus>
-					<addcontact >
-						<connection>4</connection>
-						<forcedloyalty>3</forcedloyalty>
-						<free />
-					  </addcontact>
-					  <mademan />
-				</bonus>
-				<notes>As we do not use the rules for Group contacts, this quality provides a Connection 4, Loyalty 3 Contact that has a +2 bonus on availability tests to acquire gear they have a proficiency in.
-			
-					The player is expected to be fairly open about their allegiances; visible tattoos are a common choice. Whether this presents an advantage or disadvantage in a given situation is up to the GM; it is expected that a known and favored member of a Syndicate will face greater fear, respect, admiration and revulsion than the average criminal or runner. 
-		  
-				  </notes>
-				<source>RF</source>
-				<page>148</page>
-				<forbidden>
-					<oneof>
-					  <quality>Made Man</quality>
-					</oneof>
-				</forbidden>
+			<id>75d1371f-7b93-4b1f-8173-c14b5ed25532</id>
+			<name>Underworld Soldier</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<bonus>
+				<addcontact >
+					<connection>4</connection>
+					<forcedloyalty>3</forcedloyalty>
+					<free />
+				</addcontact>
+				<mademan />
+			</bonus>
+			<notes>As we do not use the rules for Group contacts, this quality provides a Connection 4, Loyalty 3 Contact that has a +2 bonus on availability tests to acquire gear they have a proficiency in.
+		
+				The player is expected to be fairly open about their allegiances; visible tattoos are a common choice. Whether this presents an advantage or disadvantage in a given situation is up to the GM; it is expected that a known and favored member of a Syndicate will face greater fear, respect, admiration and revulsion than the average criminal or runner. 
+		
+			</notes>
+			<source>RF</source>
+			<page>148</page>
+			<forbidden>
+				<oneof>
+					<quality>Made Man</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		
 		

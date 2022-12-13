@@ -35,5 +35,11 @@
 			<name>Comet</name>
 			<hide />
 		</spell>
+		<spell>
+			<name>Shape [Material]</name>
+			<hide />
+		</spell>
+
+
 	</spells>
 </chummer>
