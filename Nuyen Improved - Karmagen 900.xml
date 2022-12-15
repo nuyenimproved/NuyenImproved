@@ -40,7 +40,7 @@
 	<uncappedarmoraccessorybonuses>False</uncappedarmoraccessorybonuses>
 	<esslossreducesmaximumonly>False</esslossreducesmaximumonly>
 	<allowskillregrouping>True</allowskillregrouping>
-	<specializationsbreakskillgroups>True</specializationsbreakskillgroups>
+	<specializationsbreakskillgroups>False</specializationsbreakskillgroups>
 	<metatypecostskarma>True</metatypecostskarma>
 	<metatypecostskarmamultiplier>1</metatypecostskarmamultiplier>
 	<limbcount>5</limbcount>
