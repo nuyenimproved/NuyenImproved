@@ -70,7 +70,7 @@
     <mentor>
       <id>50b20b8c-8cf4-4b92-95ea-b0c8bbf560b0</id>
       <name>Fox</name>
-      <choices>
+      <choices amendoperation="replace">
         <choice>
           <name>Magician: +2 dice pool modifier when casting Illusion spells, preparations, and rituals</name>
           <bonus>
