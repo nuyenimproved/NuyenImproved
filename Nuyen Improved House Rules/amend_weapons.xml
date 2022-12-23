@@ -66,11 +66,17 @@
 		</weapon>
 	</weapons>
 
-	<!-- Remove the special modifications limits so that multiple weapons may be modded -->
+	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
 		<accessories>
 			<accessory xpathfilter="starts-with(name, 'Special Modification:')">
 				<specialmodification>True</specialmodification>
 				<required amendoperation='replace' />
 			</accessory>
 		</accessories>
+
+		<!-- Region Ammo Avail for Weapons that can be got at Gen! -->
+		<accessory>
+			<name>Peak-Discharge Battery Pack, Power Clip</name>
+			<avail>12F</avail>
+		</accessory>
 </chummer>
