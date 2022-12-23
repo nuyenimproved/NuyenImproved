@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <mentors>
+    <mentor>
+      <id>0242ba67-f93b-44e1-a1ad-b0d6f9051525</id>
+      <name>Sea</name>
+      <advantage>All: +2 dice for Swimming Tests.</advantage>
+      <disadvantage>You must make a Charisma + Willpower (3) Test to give away something you own or be charitable in some way.</disadvantage>
+      <bonus>
+        <specificskill>
+          <name>Swimming</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <choices>
+        <choice>
+          <name>Magician: +2 dice summoning spirits of water</name>
+        </choice>
+        <choice>
+          <name>Adept: 1 free level of Improved Ability on an athletic skill</name>
+          <bonus>
+            <specificpower>
+              <name>Improved Ability (skill)</name>
+              <val>1</val>
+              <bonusoverride>
+                <selectskill skillgroup="Athletics" minimumrating="1">
+                  <val>Rating</val>
+                  <!-- Hero Lab says this is not RAW <applytorating>True</applytorating> -->
+                </selectskill>
+              </bonusoverride>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+      <source>SR5</source>
+      <page>323</page>
+    </mentor>
+    <mentor>
+      <id>9f020eb4-975f-4449-9ba1-c1242159d774</id>
+      <name>Oak (SHB)</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>66f968d6-96da-404e-b1ef-a4d7377ac3cf</id>
+      <name>Blacksmith</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+    <mentor>
+      <id>50b20b8c-8cf4-4b92-95ea-b0c8bbf560b0</id>
+      <name>Fox</name>
+      <choices amendoperation="replace">
+        <choice>
+          <name>Magician: +2 dice pool modifier when casting Illusion spells, preparations, and rituals</name>
+          <bonus>
+            <spellcategory>
+              <name>Illusion</name>
+              <val>2</val>
+            </spellcategory>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain 1 free level of Combat Sense.</name>
+          <bonus>
+            <specificpower>
+              <name>Combat Sense</name>
+              <val>1</val>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>   
+    <mentor>
+      <id>bcf60ea4-577a-4487-9996-6c40a86294c5</id>
+      <name>Squirrel</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>128ba60a-7825-4d29-8b94-8dd291fdc468</id>
+      <name>Groundhog</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+    <mentor>
+      <id>255affd2-1a85-422e-bb64-3dd7ab2faa77</id>
+      <name>Pig</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>f152ddfc-13b2-46fa-b8d0-77e2a518acf5</id>
+      <name>Gambler</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>62188234-323a-4c8e-96c4-b8b8a750e272</id>
+      <name>Fae</name>
+      <advantage>All: +2 dice pool modifier for tests using the Artisan skill or a skill from the the Engineering skill group.</advantage>
+      <disadvantage>Like Heinzelmännchen, Followers of Fae work in secret. If a follower of Fae wants to perform magic in public or under close observation, they'll have to make a Willpower + Charisma (3) Test or else their magic cease to function for the moment.</disadvantage>
+        <bonus>
+          <selectskill limittoskill="Artisan, Armorer, Mechanic, Demolitions">
+            <val>2</val>
+          </selectskill>
+        </bonus>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>ad1bc54f-1f59-4972-8791-a1c36860f196</id>
+      <name>Seal</name>
+      <advantage>All: +2 dice pool modifier for Judge Intentions tests.</advantage>
+      <disadvantage>Seal has compassion, but she is lacking in tact dealing with the feelings of others. Whenever a follower of Seal gains insight into the emotional world of an other, it's difficult for him to respect secrets and private boundaries and not address the subject. In order to remain discreet in such situations, they must make a Charisma + Willpower (3) test to not press the issue. Also, Glitches in social tests are automatically critical.</disadvantage>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+    <mentor>
+      <id>255affd2-1a85-422e-bb64-3dd7ab2faa77</id>
+      <name>Pig</name>
+      <source>SR5</source>
+      <page>1</page>
+    </mentor>
+
+
+
+
+  </mentors>
+</chummer>

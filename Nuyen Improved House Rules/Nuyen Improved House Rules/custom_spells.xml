@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<spells>
+		<spell>
+			<id>69f47cf8-c218-4b48-baf9-6d293fbd9498</id>
+			<name>Shape Material - Air</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>c777d4c9-85ef-44cd-b6f0-7ce1a90d2b6c</id>
+			<name>Shape Material - Earth</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>08f553e5-d5d4-49c8-83e8-d0a0a0668afb</id>
+			<name>Shape Material - Fire</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>8dd984d4-fb71-4a6c-9cd8-775a531443c6</id>
+			<name>Shape Material - Water</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>538ebf74-f9c3-4e20-84e8-bd24f0459b40</id>
+			<name>Shape Material - Metal</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>278277c7-4632-4545-93f2-e3cf92337a61</id>
+			<name>Shape Material - Polymer</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>48af9dc2-5020-4a5b-9503-fda6a3ef184f</id>
+			<name>Shape Material - Glass</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>8d6e453a-7b78-46f9-9a15-1e4e0b98cbd3</id>
+			<name>Shape Material - Fabric</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+		  <spell>
+			<id>2da5cc90-41c3-44d3-bf29-f73cb8b44140</id>
+			<name>Shape Material - Wood</name>
+			<page>118</page>
+			<source>SG</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		  </spell>
+
+
+
+
+	</spells>
+</chummer>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5ad
+-->
+
+<chummer>
+	<qualities>
+		<quality>
+			<id>7d63df91-469c-4477-ba4e-34beaf6ac160</id>
+			<name>Skinlink</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<bonus />
+			<required>
+			  <oneof>
+				<quality>Technomancer</quality>
+			  </oneof>
+			</required>
+			<source>KC</source>
+			<page>97</page>
+		  </quality>
+
+		  <quality>
+			<id>923b7fc8-be95-4578-a71d-a3a711d1f5f1</id>
+			<name>Smokey Eyed Wheelbabe</name>
+			<karma>2</karma>
+			<category>Positive</category>
+			<bonus />
+			<forbidden>
+			  <oneof>
+				<quality>Steely Eyed Wheelman</quality>
+				<quality>Steely Eyed Pilot</quality>
+			  </oneof>
+			</forbidden>
+			<source>RF</source>
+      		<page>150</page>
+		  </quality>
+
+		  <quality>
+			<id>d0e264fc-4296-48fb-880f-c99fd27cf347</id>
+			<name>Intuitive Pilot</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<bonus>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Aerospace</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Aircraft</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Ground Craft</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Walker</limittoskill>
+				</swapskillattribute>
+				<swapskillattribute>
+					<attribute>INT</attribute>
+					<limittoskill>Pilot Watercraft</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
+			<source>SR5</source>
+      		<page>1</page>
+			<notes>This will set the default character sheet atribute for all pilot skills to INT</notes>
+		  </quality>
+
+		  <quality>
+			<id>25ae0a67-57c6-4495-af7a-bec8d21f8714</id>
+			<name>Logical Gunner</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<bonus>
+				<swapskillattribute>
+					<attribute>LOG</attribute>
+					<limittoskill>Gunnery</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
+			<source>SR5</source>
+      		<page>1</page>
+			<notes>This will set the default character sheet atribute for the gunnery skill to LOG</notes>
+		  </quality>
+		  
+		  <quality>
+			<id>fabe5461-999f-4066-8e18-3a5768d009f2</id>
+			<name>Purity Bonus (Adept)</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<limit>False</limit>
+			<bonus>
+				<adeptpowerpoints>{MAG}*0.5</adeptpowerpoints>
+			</bonus>
+			<required>
+				<allof>
+					<quality>Adept</quality>
+				</allof>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Prototype Transhuman</quality>
+					<ess grade="Used">0.0001</ess>
+					<ess grade="Standard">0.0001</ess>
+					<ess grade="Alphaware">0.0001</ess>
+					<ess grade="Betaware">0.0001</ess>
+					<ess grade="Deltaware">0.0001</ess>
+					<ess grade="Gammaware">0.0001</ess>
+					<ess grade="Omegaware">0.0001</ess>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>10</page>
+			<notes>If ever your Magic rating changes, you must remove and re-add this quality to ensure your power points are properly calculated.</notes>
+		</quality>
+
+		<quality>
+			<id>bd88733a-873b-48af-ae43-94a4e91b7027</id>
+			<name>Steely Eyed Pilot</name>
+			<karma>2</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>RF</source>
+			<page>150</page>
+			<forbidden>
+				<oneof>
+				  <quality>Steely Eyed Wheelman</quality>
+				  <quality>Smokey Eyed Wheelbabe</quality>
+				</oneof>
+			</forbidden>	
+		</quality>
+
+		<quality>
+			<id>75d1371f-7b93-4b1f-8173-c14b5ed25532</id>
+			<name>Underworld Soldier</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<bonus>
+				<addcontact >
+					<connection>4</connection>
+					<forcedloyalty>3</forcedloyalty>
+					<free />
+				</addcontact>
+				<mademan />
+			</bonus>
+			<notes>As we do not use the rules for Group contacts, this quality provides a Connection 4, Loyalty 3 Contact that has a +2 bonus on availability tests to acquire gear they have a proficiency in.
+		
+				The player is expected to be fairly open about their allegiances; visible tattoos are a common choice. Whether this presents an advantage or disadvantage in a given situation is up to the GM; it is expected that a known and favored member of a Syndicate will face greater fear, respect, admiration and revulsion than the average criminal or runner. 
+		
+			</notes>
+			<source>RF</source>
+			<page>148</page>
+			<forbidden>
+				<oneof>
+					<quality>Made Man</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		
+		
+
+		
+	</qualities>
+</chummer> 

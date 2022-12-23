@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<armors>
+		<armor>
+			<id>8c0a3e0f-e934-4157-ba19-e62233dd9686</id>
+			<name>High-Fashion Armor Clothing</name>
+			<category>High-Fashion Armor Clothing</category>
+			<armor>8</armor>
+			<armorcapacity>8</armorcapacity>
+			<avail>10</avail>
+			<cost>2500</cost>
+			<bonus>
+			  <limitmodifier>
+				<limit>Social</limit>
+				<value>2</value>
+				<condition>LimitCondition_Visible</condition>
+			  </limitmodifier>
+			</bonus>
+			<wirelessbonus>
+			  <skillcategory>
+				<name>Social Active</name>
+				<bonus>1</bonus>
+			  </skillcategory>
+			</wirelessbonus>
+			<mods>
+			</mods>
+			
+			<source>RG</source>
+			<page>58</page>
+		  </armor>
+		  <armor>
+			<id>7c094a52-c944-42ec-a062-e833a4d3a689</id>
+			<name>Luxury-Fashion Armor Clothing</name>
+			<category>High-Fashion Armor Clothing</category>
+			<armor>8</armor>
+			<armorcapacity>8</armorcapacity>
+			<avail>16</avail>
+			<cost>25000</cost>
+			<bonus>
+			  <limitmodifier>
+				<limit>Social</limit>
+				<value>2</value>
+				<condition>LimitCondition_Visible</condition>
+			  </limitmodifier>
+			</bonus>
+			<wirelessbonus>
+			  <skillcategory>
+				<name>Social Active</name>
+				<bonus>1</bonus>
+			  </skillcategory>
+			</wirelessbonus>
+			<mods>
+				<name>Custom Fit</name>
+				<name>Electrochromic Clothing</name>
+				<name>AR Fashion</name>
+			</mods>
+			<gears>
+				<usegear>Biomonitor</usegear>
+			</gears>
+			<source>RG</source>
+			<page>58</page>
+		  </armor>
+		  
+		  <armor>
+			<id>2625d31f-b312-4705-8eb1-05e051e52d72</id>
+			<name>Armor Accessories</name>
+			<category>Armor</category>
+			<armor>+Rating</armor>
+			<armorcapacity>Rating</armorcapacity>
+			<rating>12</rating>
+			<avail>6</avail>
+			<cost>500 * Rating</cost>
+			<source>RG</source>
+			<page>70</page>
+		  </armor>
+
+		  <armor>
+			<id>717a3658-6088-4ec6-bb07-1c52c940102e</id>
+			<name>Utility Belt / Webbing</name>
+			<category>Armor</category>
+			<armor>0</armor>
+			<armorcapacity>Rating</armorcapacity>
+			<rating>6</rating>
+			<avail>2 * Rating</avail>
+			<cost>200 * Rating</cost>
+			<mods>
+				<name>Gear Access</name>
+			</mods>
+			<source>RG</source>
+			<page>70</page>
+		  </armor>
+
+		  <armor>
+			<id>34064b91-6743-4b86-a174-da2917a9b2d3</id>
+			<name>Headgear</name>
+			<category>Armor</category>
+			<armor>0</armor>
+			<rating>6</rating>
+			<armorcapacity>Rating</armorcapacity>
+			<rating>1*Rating</rating>
+			<avail>6</avail>
+			<cost>100 * Rating</cost>
+			<source>RG</source>
+			<page>70</page>
+		  </armor>
+
+		  <armor>
+			<id>6e9bbe4e-bf89-4894-b154-7dbea4446f67</id>
+			<name>Sleeping Tiger</name>
+			<category>High-Fashion Armor Clothing</category>
+			<armor>13</armor>
+			<armorcapacity>10</armorcapacity>
+			<avail>10</avail>
+			<cost>13500</cost>
+			<wirelessbonus>
+			  <limitmodifier>
+				<limit>Social</limit>
+				<value>1</value>
+				<condition>LimitCondition_Visible</condition>
+			  </limitmodifier>
+			</wirelessbonus>
+			<mods>
+			  <name>Custom Fit</name>
+			  <name>Newest Model</name>
+			  <name rating="3">Ruthenium Polymer Coating</name>
+			</mods>
+			<gears>
+			  <usegear>Holster</usegear>
+			</gears>
+			<source>RG</source>
+			<page>61</page>
+		  </armor>
+	</armors>
+</chummer>
