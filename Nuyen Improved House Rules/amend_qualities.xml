@@ -748,6 +748,12 @@
       </quality>
 
 
+      <!-- Region infected ban -->
+
+      <quality  xpathfilter="starts-with(name, 'Infected:')">
+        <hide />
+      </quality>
+
       <!-- Region Open Up Some technomancer qualities -->
 
       <quality>
