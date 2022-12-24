@@ -35,7 +35,17 @@
       <hide />
     </gear>
 
-    
+    <!-- Region: Ammo for weapons you can get at gen! -->
+    <gear>
+      <name>Ammo: Fuel Canister</name>
+      <avail>12F</avail>
+    </gear>
+
+    <gear>
+      <name>Missile: Fragmentation</name>
+      <avail>12F</avail>
+    </gear>
+
 
   </gears>
 </chummer>

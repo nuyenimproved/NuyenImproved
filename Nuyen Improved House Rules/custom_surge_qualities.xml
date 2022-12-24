@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
+
+  <qualities>
+    <!--Region Shadowrun Core Positive Qualities -->
+
+    <quality>
+      <id>5af76807-0627-409d-af5b-707df3872b35</id>
+      <name>Albinism I</name>
+      <metagenic>True</metagenic>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Albinism II</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>151</page>
+    </quality>
+    <quality>
+      <id>5c9202e2-876d-4337-8e9a-68548eb0f37f</id>
+      <name>Albinism II</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <cyberwarecontains>Cybereyes</cyberwarecontains>
+          <quality>Albinism I</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>151</page>
+    </quality>
+    <quality>
+      <id>751c3b73-22f2-4c2f-b937-730748845033</id>
+      <name>Allergy (Uncommon, Mild)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>1f8c6acc-17a0-4889-aee3-3c9873832a48</id>
+      <name>Allergy (Uncommon, Moderate)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>dca6f71b-e234-4897-9608-6f90336b45a9</id>
+      <name>Allergy (Uncommon, Severe)</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>d3c3ed56-e9ba-4c58-aaec-028984dec89e</id>
+      <name>Allergy (Uncommon, Extreme)</name>
+      <metagenic>True</metagenic>
+      <karma>-20</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>63681cea-66a4-47af-9b33-149c9e7bcf95</id>
+      <name>Allergy (Common, Mild)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>ac21b2c2-c913-4a44-a2e6-d2ae62802c47</id>
+      <name>Allergy (Common, Moderate)</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>e52b38dc-b58d-487e-a5df-a6fb80b33214</id>
+      <name>Allergy (Common, Severe)</name>
+      <metagenic>True</metagenic>
+      <karma>-20</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>2e0a88c3-c8ce-43d4-ba9e-0c9a339c5424</id>
+      <name>Allergy (Common, Extreme)</name>
+      <metagenic>True</metagenic>
+      <karma>-25</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
+    <quality>
+      <id>63cb5524-d2a6-4ef7-ba24-8b5a19fcffc9</id>
+      <name>Bad Luck</name>
+      <metagenic>True</metagenic>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <bonus>
+        <notoriety>1</notoriety>
+      </bonus>
+      <source>SR5</source>
+      <page>79</page>
+    </quality>
+    <quality>
+      <id>f0b50d06-552c-42b1-b0fe-021153ab559e</id>
+      <name>Blind</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <costdiscount>
+        <required>
+          <oneof>
+            <power>Astral Perception</power>
+            <quality>Aware</quality>
+            <quality>Magician</quality>
+            <quality>Aspected Magician</quality>
+            <quality>Enchanter</quality>
+            <quality>Explorer</quality>
+            <quality>Apprentice</quality>
+            <quality>Infected: Mutaqua</quality>
+            <quality>Infected: Nosferatu</quality>
+            <quality>Infected: Wendigo</quality>
+          </oneof>
+        </required>
+        <value>-10</value>
+      </costdiscount>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Reduced Sense (Sight)</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>153</page>
+    </quality>
+    <quality>
+      <id>fbcc8c8a-d993-4fe9-a2f2-b15d9236c2db</id>
+      <name>Deaf</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Reduced Sense (Hearing)</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>154</page>
+    </quality>
+    <quality>
+      <id>edd6d3f9-460f-4375-83cc-eb245b18e5ce</id>
+      <name>Distinctive Style</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Blandness</quality>
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>80</page>
+    </quality>
+    <quality>
+      <id>6a325c5f-da1e-44fb-9a25-ceb410362708</id>
+      <name>Faraday Himself</name>
+      <metagenic>True</metagenic>
+      <karma>-7</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>DT</source>
+      <page>48</page>
+    </quality>
+    <quality>
+      <id>23a9e519-63a4-4925-816f-2156d402c87d</id>
+      <name>Gremlins</name>
+      <metagenic>True</metagenic>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <limit>4</limit>
+      <firstlevelbonus>
+        <notoriety>1</notoriety>
+      </firstlevelbonus>
+      <source>SR5</source>
+      <page>81</page>
+    </quality>
+    <quality>
+      <id>519a46a7-37ce-4413-8b81-1b7969def28e</id>
+      <name>Hard Luck</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus /> <!-- TODO: Witchcraft -->
+      <source>BTB</source>
+      <page>162</page>
+    </quality>
+    <quality>
+      <id>90ad1fcf-2758-4bd5-b663-0f81f2c10532</id>
+      <name>Incomplete Deprogramming</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>156</page>
+    </quality>
+    <quality>
+      <id>4ca0f055-eb5b-469e-a3ed-132eb74711b3</id>
+      <name>Infirm</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <limit>5</limit>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <max>-1</max>
+        </specificattribute>
+        <specificattribute>
+          <name>AGI</name>
+          <max>-1</max>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <max>-1</max>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <max>-1</max>
+        </specificattribute>
+      </bonus>
+      <firstlevelbonus>
+        <attributemaxclamp>AGI</attributemaxclamp>
+        <attributemaxclamp>BOD</attributemaxclamp>
+        <attributemaxclamp>REA</attributemaxclamp>
+        <attributemaxclamp>STR</attributemaxclamp>
+      </firstlevelbonus>
+      <source>RF</source>
+      <page>156</page>
+    </quality>
+    <quality>
+      <id>785ae58f-d693-4112-996a-d791fbda9607</id>
+      <name>Insomnia (Basic)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Insomnia (Full)</quality>
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>81</page>
+    </quality>
+    <quality>
+      <id>ccf20ebd-afed-436f-b852-cd155e898ac8</id>
+      <name>Insomnia (Full)</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Insomnia (Basic)</quality>
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>81</page>
+    </quality>
+    <quality>
+      <id>b638cce0-80a9-48a8-9efb-bb576d6c2eaa</id>
+      <name>Lightweight</name>
+      <metagenic>True</metagenic>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>CF</source>
+      <page>58</page>
+    </quality>
+    <quality>
+      <id>ffa18368-327e-4c84-9212-34888f8c405b</id>
+      <name>Low Pain Tolerance</name>
+      <metagenic>True</metagenic>
+      <karma>-9</karma>
+      <category>Negative</category>
+      <bonus>
+        <conditionmonitor>
+          <threshold>-1</threshold>
+        </conditionmonitor>
+      </bonus>
+      <source>SR5</source>
+      <page>82</page>
+    </quality>
+    <quality>
+      <id>60a42857-e235-464a-9b48-3238524dce97</id>
+      <name>Motion Sickness</name>
+      <metagenic>True</metagenic>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>R5</source>
+      <page>33</page>
+    </quality>
+    <quality>
+      <id>c2b14388-1a5c-402f-8f07-afe7e5f46e17</id>
+      <name>Night Blindness</name>
+      <metagenic>True</metagenic>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>156</page>
+    </quality>
+    <quality>
+      <id>3efc8d7d-c3c7-4857-b36a-5f59132a9fc2</id>
+      <name>Oblivious I</name>
+      <metagenic>True</metagenic>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Oblivious II</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>d146470b-0f8b-4ef0-9b66-542111fc4ed2</id>
+      <name>Oblivious II</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Oblivious I</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>7df3b04d-c52c-4d67-ae54-7772413aa74e</id>
+      <name>Paraplegic</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus>
+        <basiclifestylecost>10</basiclifestylecost>
+        <lifestylecost>10</lifestylecost>
+      </bonus>
+
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>42c56971-cc0a-4d89-b04a-f4235dd43392</id>
+      <name>Phobia (Uncommon, Mild)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>a5c5fee0-0e93-4207-a8a4-cadacad0179f</id>
+      <name>Phobia (Uncommon, Moderate)</name>
+      <metagenic>True</metagenic>
+      <karma>-7</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>74822d08-1d04-426e-a5f1-4eb68ca46359</id>
+      <name>Phobia (Uncommon, Severe)</name>
+      <metagenic>True</metagenic>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>bf9fb1c4-07d8-4da4-8698-5c517777f7d7</id>
+      <name>Phobia (Common, Mild)</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>2aa8da33-b882-4000-b645-38c7c52c4984</id>
+      <name>Phobia (Common, Moderate)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>97116ae8-1739-479e-84ad-68b878e33e1a</id>
+      <name>Phobia (Common, Severe)</name>
+      <metagenic>True</metagenic>
+      <karma>-15</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>157</page>
+    </quality>
+    <quality>
+      <id>c086f6aa-165c-43e4-9989-c095dca4f428</id>
+      <name>Poor Self Control (Braggart)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>603f12c0-664c-43b1-afa6-184ad4aea1bb</id>
+      <name>Poor Self Control (Compulsive I, Personal)</name>
+      <metagenic>True</metagenic>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>d0cd57f4-755e-4e8e-be79-b567b6f93c56</id>
+      <name>Poor Self Control (Compulsive II, Personal)</name>
+      <metagenic>True</metagenic>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>63216549-0fdf-4d99-bdd9-9cc1830063d0</id>
+      <name>Poor Self Control (Compulsive III, Personal)</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>7548b64e-976c-44d4-ae16-7404424d3094</id>
+      <name>Poor Self Control (Compulsive IV, Personal)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>3ca7104a-b29e-4128-b500-7908fce509b5</id>
+      <name>Poor Self Control (Compulsive I, Public Single Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>8142c8b8-9452-489a-b63a-8adbd15c8a9e</id>
+      <name>Poor Self Control (Compulsive II, Public Single Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-7</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>98737589-ba4f-4cca-a3c2-a3300d605c6a</id>
+      <name>Poor Self Control (Compulsive III, Public Single Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-9</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>e26c5a8c-758c-4e44-bf09-73253fef62b4</id>
+      <name>Poor Self Control (Compulsive IV, Public Single Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-11</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>c2fc480d-b98a-40ac-9b9d-d1f89b349958</id>
+      <name>Poor Self Control (Compulsive I, Public Broad Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>0bdc98a9-974f-418c-ba74-818c9a87f168</id>
+      <name>Poor Self Control (Compulsive II, Public Broad Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>83f3bb50-553a-4193-b309-29016e8818a0</id>
+      <name>Poor Self Control (Compulsive III, Public Broad Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>e9790809-4bfa-4f7e-9e28-900fc85bc833</id>
+      <name>Poor Self Control (Compulsive IV, Public Broad Aspect)</name>
+      <metagenic>True</metagenic>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>e60b63d5-2d4a-4cb1-b4ec-0cf27b01e479</id>
+      <name>Poor Self Control (Thrill Seeker)</name>
+      <metagenic>True</metagenic>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+
+    <quality>
+      <id>08fa3aa4-317f-4c85-95a6-82f93fe5c876</id>
+      <name>Poor Self Control (Vindictive)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus />
+
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>3eae0c98-0c43-43e7-b5f3-37030c67a4ef</id>
+      <name>Poor Self Control (Combat Monster)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>158</page>
+    </quality>
+    <quality>
+      <id>fb77f218-5041-4640-a2fe-30b32ba6c3dd</id>
+      <name>Quasimodo</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>-3</bonus>
+          <exclude>Intimidation</exclude>
+        </skillcategory>
+        <specificskill>
+          <name>Intimidation</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>CF</source>
+      <page>59</page>
+    </quality>
+    <quality>
+      <id>b5eb584a-bd17-4d73-a09d-2e4ada81ac86</id>
+      <name>Reduced Sense (Touch)</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>RF</source>
+      <page>159</page>
+    </quality>
+    <quality>
+      <id>c7450e22-c861-43c7-aebc-35b652dc1518</id>
+      <name>Reduced Sense (Hearing)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Deaf</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>159</page>
+    </quality>
+    <quality>
+      <id>cba1d968-63ce-496d-ac9b-25dc17f3066f</id>
+      <name>Reduced Sense (Sight)</name>
+      <metagenic>True</metagenic>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Blind</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>159</page>
+    </quality>
+    <quality>
+      <id>a030c326-d2f1-4494-bdf7-b664ce7508bd</id>
+      <name>Sensitive System</name>
+      <metagenic>True</metagenic>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <bonus>
+        <cyberwaretotalessmultiplier>200</cyberwaretotalessmultiplier>
+        <disablebioware />
+      </bonus>
+      <source>SR5</source>
+      <page>83</page>
+    </quality>
+    <quality>
+      <id>1c8234ae-931d-4500-a4f3-3c9f91232131</id>
+      <name>Social Appearance Anxiety</name>
+      <metagenic>True</metagenic>
+      <karma>-3</karma>
+      <category>Negative</category>
+      <limit>3</limit>
+      <bonus />
+      <source>CA</source>
+      <page>152</page>
+    </quality>
+    <quality>
+      <id>0b693dda-d9b2-4e1c-8031-aff45fc29f1e</id>
+      <name>Social Stress</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>85</page>
+    </quality>
+    <quality>
+      <id>e1e728a2-4b29-408f-a41c-5b10cb986f5b</id>
+      <name>Spirit Pariah</name>
+      <metagenic>True</metagenic>
+      <karma>-14</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>SG</source>
+      <page>199</page>
+    </quality>
+    <quality>
+      <id>6bf8ac4f-bddf-4ca6-a59c-bde589b2c059</id>
+      <name>Stay Out of My Way</name>
+      <metagenic>True</metagenic>
+      <karma>-9</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>SL</source>
+      <page>127</page>
+    </quality>
+    <quality>
+      <id>d9190f0b-45c2-4122-a502-0e4b82438fe8</id>
+      <name>Superhuman Psychosis</name>
+      <metagenic>True</metagenic>
+      <karma>-2</karma>
+      <category>Negative</category>
+      <bonus>
+        <skillgroup>
+          <name>Close Combat</name>
+          <bonus>1</bonus>
+        </skillgroup>
+        <specificskill>
+          <name>Exotic Melee Weapon</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Etiquette</name>
+          <bonus>-2</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Leadership</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+      <source>CF</source>
+      <page>59</page>
+    </quality>
+    <quality>
+      <id>53438702-3886-48ea-8f58-a89825fc870d</id>
+      <name>The Goat</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>CA</source>
+      <page>152</page>
+    </quality>
+    <quality>
+      <id>41c65712-5e85-4296-8992-cac7d6de8d06</id>
+      <name>Ugly And Doesn't Care</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <max>-1</max>
+          <min>-1</min>
+        </specificattribute>
+      </bonus>
+      <source>CA</source>
+      <page>152</page>
+    </quality>
+    <quality>
+      <id>c75642be-56d9-491b-aef8-92cdb1d9ff85</id>
+      <name>Uncouth</name>
+      <metagenic>True</metagenic>
+      <karma>-14</karma>
+      <category>Negative</category>
+      <bonus>
+        <notoriety>1</notoriety>
+        <skillcategorykarmacostmultiplier>
+          <name>Social Active</name>
+          <val>200</val>
+        </skillcategorykarmacostmultiplier>
+        <skillcategorypointcostmultiplier>
+          <name>Social Active</name>
+          <val>200</val>
+        </skillcategorypointcostmultiplier>
+        <skillgroupcategorydisable>Social Active</skillgroupcategorydisable>
+      </bonus>
+      <source>SR5</source>
+      <page>85</page>
+    </quality>
+    <quality>
+      <id>3e3bf0ff-980b-4a51-96e3-c5b2e96f3644</id>
+      <name>Uneducated</name>
+      <metagenic>True</metagenic>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <bonus>
+        <notoriety>1</notoriety>
+        <skillcategorykarmacostmultiplier>
+          <name>Professional</name>
+          <val>200</val>
+        </skillcategorykarmacostmultiplier>
+        <skillcategorykarmacostmultiplier>
+          <name>Academic</name>
+          <val>200</val>
+        </skillcategorykarmacostmultiplier>
+        <skillcategorykarmacostmultiplier>
+          <name>Technical Active</name>
+          <val>200</val>
+        </skillcategorykarmacostmultiplier>
+        <skillcategoryspecializationkarmacostmultiplier>
+          <name>Professional</name>
+          <val>200</val>
+        </skillcategoryspecializationkarmacostmultiplier>
+        <skillcategoryspecializationkarmacostmultiplier>
+          <name>Academic</name>
+          <val>200</val>
+        </skillcategoryspecializationkarmacostmultiplier>
+        <skillcategoryspecializationkarmacostmultiplier>
+          <name>Technical Active</name>
+          <val>200</val>
+        </skillcategoryspecializationkarmacostmultiplier>
+        <skillgroupcategorykarmacostmultiplier>
+          <name>Technical Active</name>
+          <val>200</val>
+        </skillgroupcategorykarmacostmultiplier>
+      </bonus>
+      <source>SR5</source>
+      <page>87</page>
+    </quality>
+    <quality>
+      <id>fde651ae-68de-4c42-ac91-7dfc2fb492b8</id>
+      <name>Unsteady Hands</name>
+      <metagenic>True</metagenic>
+      <karma>-7</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>SR5</source>
+      <page>87</page>
+    </quality>
+    <quality>
+      <id>cf6921d6-3efa-4bfb-bf92-8edd03dbaa12</id>
+      <name>Weak Immune System</name>
+      <metagenic>True</metagenic>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus>
+        <notoriety>1</notoriety>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Resistance to Pathogens</quality>
+          <quality>Resistance to Toxins</quality>
+          <quality>Resistance to Pathogens and Toxins</quality>
+          <quality>Natural Immunity (Natural)</quality>
+          <quality>Natural Immunity (Synthetic)</quality>
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>87</page>
+    </quality>
+      <!-- End Region -->
+  </qualities>
+</chummer>

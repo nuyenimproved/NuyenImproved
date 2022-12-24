@@ -61,12 +61,6 @@
       </bonus>
     </quality>
 
-    
-    
-    
-    
-
-
     <!-- One with the matrix is free for technomancers -->
     <quality>
       <id>3c83d73e-7aa7-4fe5-8f03-6e983648e2eb</id>
@@ -526,12 +520,12 @@
 
     <!-- Region Nuyen Improved Bans -->
 
+
     
     <quality>
       <name>Astral Hazing</name>
       <hide />
     </quality>
-
     <quality>
       <name>Chosen Follower</name>
       <hide />
