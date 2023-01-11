@@ -242,7 +242,7 @@
 		  </skill>
 		  <skill>
 			<name>Sneaking</name>
-			<specs>
+			<specs amendoperation="replace">
 			  <spec>Street</spec>
 			  <spec>Indoors</spec>
 			  <spec>Crowds</spec>
@@ -252,6 +252,5 @@
 			<source>SR5</source>
 			<page>133</page>
 		  </skill>
-
 	</skills>
 </chummer>
