@@ -116,7 +116,7 @@
 			<rating>6</rating>
 			<armorcapacity>Rating</armorcapacity>
 			<rating>1*Rating</rating>
-			<avail>6</avail>
+			<avail>0</avail>
 			<cost>100 * Rating</cost>
 			<source>RG</source>
 			<page>70</page>
