@@ -53,6 +53,58 @@
       <avail>+4F</avail>
     </gear>
 
+    <!-- Region: Electronic Parts Flat Rates -->
+    <gear>
+      <id>f860ec1a-b688-4975-95f4-4c11648b04f0</id>
+      <name>Add Attack Modification</name>
+      <cost>3000</cost>
+    </gear>
+    <gear>
+      <id>6638ae8f-d6e4-4d0b-ba3f-0fe05ef64ce0</id>
+      <name>Add Sleaze Modification</name>
+      <cost>3000</cost>
+    </gear>
+    <gear>
+      <id>d6802ad9-5dca-434a-bc92-bf8a17a8c5dc</id>
+      <name>Add Module</name>
+      <cost>500</cost>
+    </gear>
+    <gear>
+      <id>e833a66b-f8b6-4720-b702-ee8efb8522c7</id>
+      <name>Increase Sleaze Modification</name>
+      <category>Electronic Modification</category>
+      <cost>3500</cost>
+    </gear>
+    <gear>
+      <id>e2c6eded-5897-4ae6-9911-230292d3f858</id>
+      <name>Increase Attack Modification</name>
+      <cost>3500</cost>
+
+    </gear>
+    <gear>
+      <id>0b2cb1ca-d97a-4aee-bf63-5c516b4d0e3e</id>
+      <name>Increase Data Processing Modification</name>
+      <category>Electronic Modification</category>
+      <cost>3500</cost>
+      
+    </gear>
+    <gear>
+      <id>fe32ba65-0c81-48df-98cb-d80f740d54a5</id>
+      <name>Increase Firewall Modification</name>
+      <cost>3500</cost>
+    </gear>
+
+    <gear xpathfilter="starts-with(name, 'Modify Matrix Attribute')">
+      <cost>1000</cost>
+    </gear>
+
+    <gear>
+      <id>48f8cb8e-dc9f-405e-b49a-fce3d61a1bda</id>
+      <name>Persona Firmware</name>
+      <cost>500</cost>
+    </gear>
+
+
     <!-- Region: Rigger Command Consoles - give RCC the ability to use Commlink Dongles. -->
     <gear>
       <id>d66c8cfa-2d00-4f5f-ac7a-eed5f5f7dde7</id>
