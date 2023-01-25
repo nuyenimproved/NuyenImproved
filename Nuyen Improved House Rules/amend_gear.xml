@@ -46,6 +46,13 @@
       <avail>12F</avail>
     </gear>
 
+    <!-- Region: Sim Module adds Avail -->
+    <gear>
+      <id>b7da0596-da6e-4122-adc3-21d7f3f9e3f1</id>
+      <name>Sim Module, Hot</name>
+      <avail>+4F</avail>
+    </gear>
+
     <!-- Region: Rigger Command Consoles - give RCC the ability to use Commlink Dongles. -->
     <gear>
       <id>d66c8cfa-2d00-4f5f-ac7a-eed5f5f7dde7</id>
