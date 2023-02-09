@@ -110,7 +110,7 @@
       <id>d66c8cfa-2d00-4f5f-ac7a-eed5f5f7dde7</id>
       <name>Attack Dongle</name>
       <required>
-        <geardetails>
+        <geardetails amendoperation="replace">
           <OR>
             <category>Commlinks</category>
             <category>Cyberterminals</category>
