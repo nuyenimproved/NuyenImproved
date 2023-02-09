@@ -520,7 +520,9 @@
 
     <!-- Region Nuyen Improved Bans -->
 
-
+    <quality  xpathfilter="starts-with(name, 'Crystal')">
+      <hide />
+    </quality>
     
     <quality>
       <name>Astral Hazing</name>
