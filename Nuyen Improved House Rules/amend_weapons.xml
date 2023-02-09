@@ -64,16 +64,18 @@
 			<name>Krime Confederate</name>
 			<avail>20F</avail>
 		</weapon>
+
+		<!-- Region Ultimax Errata -->
+		<weapon>
+			<id>40bf3eed-b239-4521-ac1d-80a4e472451e</id>
+			<name>Ultimax Rain Forest Carbine</name>
+			<damage>11P</damage>
+			<ap>-2</ap>
+		</weapon>
 	</weapons>
 
 
-	<!-- Region Ultimax Errata -->
-	<weapon>
-		<id>40bf3eed-b239-4521-ac1d-80a4e472451e</id>
-		<name>Ultimax Rain Forest Carbine</name>
-		<damage>11P</damage>
-      	<ap>-2</ap>
-	  </weapon>
+	
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
 		<accessories>
