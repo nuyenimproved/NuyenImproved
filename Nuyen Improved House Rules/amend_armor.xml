@@ -116,5 +116,10 @@
 			<name>Universal Mirror Material</name>
 			<hide />
 		</mod>
+		<mod>
+			<id>ed43ded4-1b2f-410a-9322-166c39306d03</id>
+			<name>Gel Packs</name>
+			<hide />
+		  </mod>
 	</mods>
 </chummer>
