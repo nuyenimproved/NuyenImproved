@@ -42,6 +42,11 @@
     </gear>
 
     <gear>
+      <name>Ammo: Gyrojet</name>
+      <avail>12F</avail>
+    </gear>
+
+    <gear>
       <name>Missile: Fragmentation</name>
       <avail>12F</avail>
     </gear>
