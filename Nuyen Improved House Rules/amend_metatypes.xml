@@ -56,7 +56,7 @@
 						<negative amendoperation="remove">
 						  
 						</negative>
-					  </qualities>
+					</qualities>
 				</metavariant>
 				<metavariant>
 					<name>Hanuman</name>
@@ -121,6 +121,13 @@
 				<power>Search</power>
 				<power select="Kick: DV ({STR} + 2)P, AP 0, +1 Reach">Natural Weapon</power>
 			</powers>
+			<bonus>
+				<lifestylecost />
+			</bonus>
+		</metatype>
+
+		<metatype>
+			<name>Naga</name>
 			<bonus>
 				<lifestylecost />
 			</bonus>
