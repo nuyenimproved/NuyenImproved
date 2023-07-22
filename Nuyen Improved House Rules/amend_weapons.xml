@@ -88,6 +88,12 @@
 		<ap>-10</ap>
 	</weapon>
 
+	<weapon>
+		<id>99cbc9c0-11b6-4906-9dba-adc217592b92</id>
+		<name>Electrical Discharge</name>
+		<ap>-5</ap>
+	</weapon>
+
 
 	
 
