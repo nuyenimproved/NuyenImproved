@@ -44,9 +44,17 @@
     </vehicle>
   </vehicles>  
   <!-- End Region -->
+
+  <!-- Bans -->
   <mod>
     <id>831a60c3-f57b-40c7-9b4d-92906897ee90</id>
     <name>GridLink</name>
     <hide />
   </mod>
+  <mod>
+    <id>df87cb45-8df9-4d6b-8c78-b2e2ed8efa81</id>
+    <name>Special Armor Modification (Universal Mirror Material)</name>
+    <hide />
+  </mod>
+
 </chummer>
