@@ -44,4 +44,9 @@
     </vehicle>
   </vehicles>  
   <!-- End Region -->
+  <mod>
+    <id>831a60c3-f57b-40c7-9b4d-92906897ee90</id>
+    <name>GridLink</name>
+    <hide />
+  </mod>
 </chummer>
