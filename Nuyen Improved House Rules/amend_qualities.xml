@@ -753,7 +753,47 @@
         <hide />
       </quality>
 
+      <quality>
+        <id>d03a9696-2341-4894-8cf2-0537c4e74af2</id>
+        <name>Hedge Witch/Wizard</name>
+        <hide />
+      </quality>
 
+      <quality>
+        <id>ecb5ab50-68c9-45ee-9fb4-c2f0b3051096</id>
+        <name>Null Wizard</name>
+        <hide />
+      </quality>
+
+      <quality>
+          <id>90691f29-5b81-4a81-9ebc-21f2f5da1d55</id>
+          <name>Seer</name>
+          <hide />
+      </quality>
+          
+      <quality>
+        <id>4d5e0fd2-dab3-4de0-9756-096a748bb3cc</id>
+        <name>Elementalist (Air)</name> 
+        <hide />
+      </quality>
+
+      <quality>
+        <id>de428f71-12d1-4c21-98c5-1b3f86da5ba2</id>
+        <name>Elementalist (Earth)</name>
+        <hide />
+      </quality>
+
+      <quality>
+        <id>d426f03d-6a3e-4696-a977-a49fb93be9aa</id>
+        <name>Elementalist (Fire)</name>
+        <hide />
+      </quality>
+
+      <quality>
+        <id>c9c20750-894a-42b8-8119-0e12484698d4</id>
+        <name>Elementalist (Water)</name>
+        <hide />
+      </quality>
       <!-- Region infected ban -->
 
       <quality  xpathfilter="starts-with(name, 'Infected:')">
