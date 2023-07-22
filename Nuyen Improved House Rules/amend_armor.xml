@@ -45,6 +45,11 @@
 			<hide />
 		</armor>
 		<armor>
+			<name><name>Vashon Island: Sleeping Tiger</name></name>
+			<armor>8</armor>
+			<hide />
+		</armor>
+		<armor>
 			<name>EVO/Yamatetsu Naval Technologies Rampart</name>
 			<hide />
 		</armor>
