@@ -72,14 +72,21 @@
 		</weapon>
 		
 
-		<!-- Region Ultimax Errata -->
-		<weapon>
+	<!-- Region Ultimax Errata -->
+	<weapon>
 			<id>40bf3eed-b239-4521-ac1d-80a4e472451e</id>
 			<name>Ultimax Rain Forest Carbine</name>
 			<damage>11P</damage>
 			<ap>-2</ap>
 		</weapon>
 	</weapons>
+
+
+	<weapon>
+		<id>176ab92a-0c00-48fe-a994-668903407fbf</id>
+		<name>Ares Armatus</name>
+		<ap>-10</ap>
+	</weapon>
 
 
 	
