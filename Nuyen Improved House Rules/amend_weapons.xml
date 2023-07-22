@@ -55,6 +55,12 @@
 		<weapon xpathfilter="contains(name,'Krime Party')">
 			<hide />
 		</weapon>
+		<weapon>
+			<id>e9a6bd24-c551-4cc1-be0a-aca373c44049</id>
+			<name>Aztechnology Blood Drinker Combat Axe</name>
+			<hide />
+		</weapon>
+
 		
 		<weapon xpathfilter="starts-with(category, 'Machine Pistols')">
 			<useskill>Pistols</useskill>
@@ -64,6 +70,7 @@
 			<name>Krime Confederate</name>
 			<avail>20F</avail>
 		</weapon>
+		
 
 		<!-- Region Ultimax Errata -->
 		<weapon>
