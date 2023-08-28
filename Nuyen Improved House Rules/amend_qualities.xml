@@ -32,6 +32,124 @@
       </required>
     </quality>
 
+    <!-- Spirit Hunter Can Use Assensing to Qualify -->
+
+    <quality>
+      <id>7bd24b5c-9ad4-4083-b58b-5dcc420d1950</id>
+      <name>Spirit Hunter I</name>
+      <required>
+        <allof>
+          <attribute>
+            <name>MAG</name>
+            <total>1</total>
+          </attribute>
+        </allof>
+        <oneof>
+          <power>Killing Hands</power>
+          <skill>
+            <name>Banishing</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>4</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>4</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>4</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>3ef898e6-b57d-4254-88d8-b8e37491e186</id>
+      <name>Spirit Hunter II</name>
+      <required>
+        <allof>
+          <attribute>
+            <name>MAG</name>
+            <total>1</total>
+          </attribute>
+          <quality>Spirit Hunter I</quality>
+        </allof>
+        <oneof>
+          <power>Killing Hands</power>
+          <skill>
+            <name>Banishing</name>
+            <val>8</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>8</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>8</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>10</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>10</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>80b557bc-c7fd-413f-8b8a-4571c8f3fa56</id>
+      <name>Spirit Hunter III</name>
+      <required>
+        <allof>
+          <attribute>
+            <name>MAG</name>
+            <total>1</total>
+          </attribute>
+          <quality>Spirit Hunter II</quality>
+        </allof>
+        <oneof>
+          <power>Killing Hands</power>
+          <skill>
+            <name>Banishing</name>
+            <val>12</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>12</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>14</val>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>12</val>
+            <spec>Spirits</spec>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+
 
     <!-- SINner applies to lifestyle -->
 
