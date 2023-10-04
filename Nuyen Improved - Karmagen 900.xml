@@ -79,7 +79,7 @@
 	<allowobsolescentupgrade>False</allowobsolescentupgrade>
 	<allowbiowaresuites>False</allowbiowaresuites>
 	<freespiritpowerpointsmag>False</freespiritpowerpointsmag>
-	<compensateskillgroupkarmadifference>True</compensateskillgroupkarmadifference>
+	<compensateskillgroupkarmadifference>False</compensateskillgroupkarmadifference>
 	<autobackstory>True</autobackstory>
 	<freemartialartspecialization>False</freemartialartspecialization>
 	<priorityspellsasadeptpowers>False</priorityspellsasadeptpowers>
