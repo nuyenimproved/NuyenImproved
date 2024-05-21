@@ -112,13 +112,6 @@
 		</weapon>
 	</weapons>
 
-
-	<weapon>
-		<id>176ab92a-0c00-48fe-a994-668903407fbf</id>
-		<name>Ares Armatus</name>
-		<ap>-10</ap>
-	</weapon>
-
 	<weapon>
 		<id>99cbc9c0-11b6-4906-9dba-adc217592b92</id>
 		<name>Electrical Discharge</name>
