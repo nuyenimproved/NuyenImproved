@@ -70,6 +70,37 @@
 			<name>Krime Confederate</name>
 			<avail>20F</avail>
 		</weapon>
+
+	<!-- Region Nuyen Improved Laser Buffs -->
+	
+	<weapon>
+      		<id>df5d5c83-ddf8-4ec2-8a6f-28c61ec7325a</id>
+      		<name>Ares Archon Heavy MP Laser</name>
+      		<ap>-14</ap>
+      		<mode>SA/BF</mode>
+        </weapon>
+    	<weapon>
+      		<id>d6c4ff4a-5fbb-4885-9220-a784e2bff4f4</id>
+      		<name>Ares Lancer MP Laser</name>
+		<ap>-14</ap>
+            	<mode>SA/BF</mode>
+            	<ammo>2x12(c) or External Source</ammo>
+    	</weapon>
+    	<weapon>
+      		<id>78293136-5bd0-49ac-aa9b-7c291f94c7a4</id>
+      		<name>Ares Redline</name>
+           	<ap>-14</ap>
+      		<ammo>12(c) or External Source</ammo>
+	</weapon>
+
+	<weapon>
+      		<id>176ab92a-0c00-48fe-a994-668903407fbf</id>
+      		<name>Ares Armatus</name>
+            	<ap>-14</ap>
+      		<mode>SA</mode>
+      		<ammo>12(c) or External Source</ammo>
+        </weapon>
+
 		
 
 	<!-- Region Ultimax Errata -->
