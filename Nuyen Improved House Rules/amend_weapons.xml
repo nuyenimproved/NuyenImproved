@@ -101,7 +101,12 @@
       		<ammo>12(c) or External Source</ammo>
         </weapon>
 
-		
+	<weapon>
+		<name>Repeating Laser</name>
+		<ap>-14</ap>
+		<avail>22F</avail>
+		<cost>27000</cost>
+	</weapon>
 
 	<!-- Region Ultimax Errata -->
 	<weapon>
