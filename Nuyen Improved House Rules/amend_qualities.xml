@@ -683,7 +683,7 @@
         <hide />
       </quality>
       <quality>
-        <name>Better to be Feared than Loved</name>
+        <name>Better to be Feared Than Loved</name>
         <hide />
       </quality>
       <quality>
@@ -719,7 +719,7 @@
         <hide />
       </quality>
       <quality>
-        <name>Leeroy Jenkins</name>
+        <name>Leeeeeeeroy Jenkins</name>
         <hide />
       </quality>
       <quality>
@@ -735,7 +735,11 @@
         <hide />
       </quality>
       <quality>
-        <name>Carrier</name>
+        <name>Carrier (HMHVV Strain II)</name>
+        <hide />
+      </quality>
+	  <quality>
+        <name>Carrier (HMHVV Strain III)</name>
         <hide />
       </quality>
       <quality>
@@ -954,5 +958,68 @@
 					</oneof>
 				</forbidden>
       </quality>
+
+	  <!--Potion Maker Fix -->
+	  <quality>
+		  <name>Potion Maker</name>
+		  <required amendopperation='replace'>
+			  <allof>
+				  <magenabled />
+				  <skill>
+					  <name>Alchemy</name>
+					  <val>4</val>
+				  </skill>
+			  </allof>
+		  </required>
+	  </quality>
+
+	  <!--Mystic Foreman Fix -->
+	  <quality>
+		  <name>Mystic Foreman</name>
+		  <required amendopperation='replace'>
+			  <allof>
+				  <magenabled />
+				  <skill>
+					  <name>Mechanic</name>
+					  <val>4</val>
+				  </skill>
+			  </allof>
+			  <oneof>
+				  <skill>
+					  <name>Spellcasting</name>
+					  <val>4</val>
+					  <spec>Manipulation</spec>
+				  </skill>
+				  <skill>
+					  <name>Spellcasting</name>
+					  <val>6</val>
+				  </skill>
+			  </oneof>
+		  </required>
+	  </quality>
+
+	  <!--Hiding Banned Qualities That Were Missed-->
+	   <quality>
+        <name>Dracoform (Eastern Drake)</name>
+        <hide />
+      </quality>
+	   <quality>
+        <name>Dracoform (Western Drake)</name>
+        <hide />
+      </quality>
+	   <quality>
+        <name>Dracoform (Feathered Drake)</name>
+        <hide />
+      </quality>
+	   <quality>
+        <name>Dracoform (Sea Drake)</name>
+        <hide />
+      </quality>
+	  <quality>
+        <name>Emotional Attachment</name>
+        <hide />
+      </quality>
+	  
     </qualities>
+
 </chummer>
