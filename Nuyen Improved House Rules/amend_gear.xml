@@ -224,6 +224,7 @@
 
     <!--Missing Banned Gear-->
       <gear>
+          <id>31f51b7e-d2eb-4274-aead-72710b198c13</id>
           <name>Numb</name>
           <hide />
       </gear>
