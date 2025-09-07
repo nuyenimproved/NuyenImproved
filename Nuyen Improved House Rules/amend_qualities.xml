@@ -961,6 +961,7 @@
 
 	  <!--Potion Maker Fix -->
 	  <quality>
+		  <id>9ce70b7b-b0cd-4ec8-87f6-42c3b74faf2a</id>
 		  <name>Potion Maker</name>
 		  <required amendopperation='replace'>
 			  <allof>
@@ -975,6 +976,7 @@
 
 	  <!--Mystic Foreman Fix -->
 	  <quality>
+		  <id>39b19ecb-f3a8-488e-a413-f399a1991b55</id>
 		  <name>Mystic Foreman</name>
 		  <required amendopperation='replace'>
 			  <allof>
@@ -999,27 +1001,33 @@
 	  </quality>
 
 	  <!--Hiding Banned Qualities That Were Missed-->
-	   <quality>
-        <name>Dracoform (Eastern Drake)</name>
-        <hide />
-      </quality>
-	   <quality>
-        <name>Dracoform (Western Drake)</name>
-        <hide />
-      </quality>
-	   <quality>
-        <name>Dracoform (Feathered Drake)</name>
-        <hide />
-      </quality>
-	   <quality>
-        <name>Dracoform (Sea Drake)</name>
-        <hide />
-      </quality>
-	  <quality>
-        <name>Emotional Attachment</name>
-        <hide />
-      </quality>
+		<quality>
+			<id>3a8006d6-72c2-4655-9200-45ec21cad760</id>
+        	<name>Dracoform (Eastern Drake)</name>
+    		<hide />
+    	</quality>
+		<quality>
+			<id>f257ce85-fc27-4fa1-8d34-6eb4102e7614</id>
+    		<name>Dracoform (Western Drake)</name>
+        	<hide />
+    	</quality>
+		<quality>
+			<id>90a7cc01-ee0f-4d60-aeb9-05752e68ddf9</id>
+        	<name>Dracoform (Feathered Drake)</name>
+        	<hide />
+    	</quality>
+		<quality>
+			<id>c284e172-1d20-4844-b24c-e094d2588b72</id>
+        	<name>Dracoform (Sea Drake)</name>
+        	<hide />
+    	</quality>
+		<quality>
+			<id>fae6e95c-f71b-47e5-8cb4-696f2af2bf22</id>
+        	<name>Emotional Attachment</name>
+        	<hide />
+    	</quality>
 	  
     </qualities>
 
 </chummer>
+
