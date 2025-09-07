@@ -35,5 +35,10 @@
 			<name>Shape [Material]</name>
 			<hide />
 		</spell>
+		<spell>
+			<name>Convert Blood to Ichor</name>
+			<hide />
+		</spell>
 	</spells>
 </chummer>
+
