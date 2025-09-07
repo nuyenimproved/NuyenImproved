@@ -1021,13 +1021,19 @@
         	<name>Dracoform (Sea Drake)</name>
         	<hide />
     	</quality>
-		<quality>
+	  <quality>
 			<id>fae6e95c-f71b-47e5-8cb4-696f2af2bf22</id>
         	<name>Emotional Attachment</name>
+        	<hide />
+    	</quality>
+		<quality>
+			<id>e132257f-14d8-4e5a-9f20-ae6af29649d5</id>
+      		<name>Latent Dracomorphosis</name>
         	<hide />
     	</quality>
 	  
     </qualities>
 
 </chummer>
+
 
