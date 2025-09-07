@@ -221,5 +221,11 @@
       <dataprocessing>6</dataprocessing>
       <firewall>5</firewall>
     </gear>
+
+    <!--Missing Banned Gear-->
+      <gear>
+          <name>Numb</name>
+          <hide />
+      </gear>
   </gears>
 </chummer>
