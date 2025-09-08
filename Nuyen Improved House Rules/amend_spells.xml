@@ -35,6 +35,8 @@
 			<name>Shape [Material]</name>
 			<hide />
 		</spell>
+
+		<!--Hiding Banned Qualities That Were Missed-->
 		<spell>
 			<name>Convert Blood to Ichor</name>
 			<hide />
@@ -51,7 +53,24 @@
 			<name>Corps Cadavre</name>
 			<hide />
 		</spell>
+		<spell>
+			<name>Radiation Beam</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Radiation Burst</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Pollutant Stream</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Pollutant Wave</name>
+			<hide />
+		</spell>
 	</spells>
 </chummer>
+
 
 
