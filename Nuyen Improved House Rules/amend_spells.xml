@@ -36,7 +36,7 @@
 			<hide />
 		</spell>
 
-		<!--Hiding Banned Qualities That Were Missed-->
+		<!--Hiding Banned Spells That Were Missed-->
 		<spell>
 			<name>Convert Blood to Ichor</name>
 			<hide />
@@ -71,6 +71,7 @@
 		</spell>
 	</spells>
 </chummer>
+
 
 
 
