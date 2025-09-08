@@ -25,5 +25,14 @@
       <name>Adept Spell</name>
       <hide />
     </power>
+    <!--Hiding Banned Powers That Were Missed-->
+    <power>
+      <name>Toxic Strike</name>
+      <hide />
+    </power>
+    <power>
+      <name>Plague Cloud</name>
+      <hide />
+    </power>
   </powers>
 </chummer>
