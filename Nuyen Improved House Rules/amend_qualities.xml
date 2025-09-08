@@ -963,8 +963,7 @@
 	  <quality>
 		  <id>9ce70b7b-b0cd-4ec8-87f6-42c3b74faf2a</id>
 		  <name>Potion Maker</name>
-		  <bonus>
-		 	 <required amendopperation='replace'>
+		 	 <required amendoperation='replace'>
 			 	 <allof>
 				 	 <magenabled />
 					  <skill>
@@ -973,15 +972,13 @@
 					  </skill>
 				  </allof>
 		 	 </required>
-		  </bonus>
 	  </quality>
 
 	  <!--Mystic Foreman Fix -->
 	  <quality>
 		  <id>39b19ecb-f3a8-488e-a413-f399a1991b55</id>
 		  <name>Mystic Foreman</name>
-		  <bonus>
-		  <required amendopperation='replace'>
+		  <required amendoperation='replace'>
 			  <allof>
 				  <magenabled />
 				  <skill>
@@ -1001,7 +998,6 @@
 				  </skill>
 			  </oneof>
 		  </required>
-		  </bonus>
 	  </quality>
 
 	  <!--Hiding Banned Qualities That Were Missed-->
@@ -1039,6 +1035,7 @@
     </qualities>
 
 </chummer>
+
 
 
 
