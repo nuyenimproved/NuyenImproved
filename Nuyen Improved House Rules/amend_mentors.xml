@@ -150,6 +150,38 @@
       <page>1</page>
     </mentor>
 
+      <!--Hiding Banned Spells That Were Missed-->
+    <mentor>
+      <id>19d69029-259a-4ed6-b66b-944b4ddbc172</id>
+      <name>Arcana</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <id>2dcbe44e-3789-4cf2-b51b-0337c239ce7c</id>
+      <name>Holy Text</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <id>12a4d51d-1d4c-405f-b62e-1ba5ad0aaf01</id>
+      <name>Tohu Wa-Bohu</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <id>833ce699-081b-454d-ac93-5c2bd2c61862</id>
+      <name>Death</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <id>dc5c1f63-743f-475d-9a94-02fcbfbb437f</id>
+      <name>Disease</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <id>0fc002e4-c130-4ca8-8719-487941e86863</id>
+      <name>Planar Entity</name>
+      <hide />
+    </mentor>
+
 
 
 
