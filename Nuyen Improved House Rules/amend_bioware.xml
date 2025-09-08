@@ -44,9 +44,5 @@
 			<name>Immunization</name>
 			<hide />
 		</bioware>
-		<bioware>
-			<name>Adapsin</name>
-			<hide />
-		</bioware>
 	</biowares>
 </chummer>
