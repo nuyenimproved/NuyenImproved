@@ -99,6 +99,26 @@
       		<name>Stirrup Interface</name>
 			<hide />
 		</cyberware>
+		<cyberware>
+			<name>Orientation Goad</name>
+			<hide />
+		</cyberware>
+		<cyberware>
+			<name>CAST</name>
+			<hide />
+		</cyberware>
+		<cyberware>
+			<name>CAST w/ Friend or Foe Recognition</name>
+			<hide />
+		</cyberware>
+		<cyberware>
+			<name>TRACES</name>
+			<hide />
+		</cyberware>
+		<cyberware>
+			<name>SEIS</name>
+			<hide />
+		</cyberware>
 		
 	</cyberwares>
 </chummer>
