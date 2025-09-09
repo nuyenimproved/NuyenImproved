@@ -17,8 +17,9 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<!--Retiring this content
+
 <chummer>
+	<!--Retiring this content
 	<grades>
 		<grade>
             <id>38100d38-dcc2-47d8-b89c-cc02e7d00ae6</id>
@@ -37,5 +38,5 @@
             </oneof>
           </required>
 	</grades>
+	-->
 </chummer>
--->
