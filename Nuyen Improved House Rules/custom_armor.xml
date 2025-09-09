@@ -122,7 +122,8 @@
 			<page>70</page>
 		  </armor>
 
-		  <armor>
+		<!-- Retiering Sleeping Tiger Armor  
+		<armor>
 			<id>6e9bbe4e-bf89-4894-b154-7dbea4446f67</id>
 			<name>Sleeping Tiger</name>
 			<category>High-Fashion Armor Clothing</category>
@@ -148,5 +149,6 @@
 			<source>RG</source>
 			<page>61</page>
 		  </armor>
+		-->
 	</armors>
 </chummer>
