@@ -115,6 +115,10 @@
 			<id>5116893c-8102-4397-b7b8-f568f50560ab</id>
 			<name>Firefighter 'Bunker Gear' Helmet</name>
 		</armor>
+		<armor>
+			<name>Scout's Tux</name>
+			<hide />
+		</armor>
 	</armors>
 	<mods>
 		<mod>
