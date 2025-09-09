@@ -46,7 +46,8 @@
   <!-- End Region -->
 
   <!-- Bans -->
-  <mod>
+ <mods>
+    <mod>
     <id>831a60c3-f57b-40c7-9b4d-92906897ee90</id>
     <name>GridLink</name>
     <hide />
@@ -56,5 +57,6 @@
     <name>Special Armor Modification (Universal Mirror Material)</name>
     <hide />
   </mod>
+ </mods>
 
 </chummer>
