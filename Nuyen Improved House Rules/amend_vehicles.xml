@@ -58,5 +58,25 @@
     <hide />
   </mod>
  </mods>
+    <!-- Missed Bans -->
+    <vehicles>
+        <vehicle>
+            <id>c2fa6792-1ed9-437c-a7d2-b9ff79c44fd2</id>
+            <name>Mitsuhama Akiyama (Medium)</name>
+            <hide />
+        </vehicle>
+        <vehicle>
+            <id>685a5cb6-75ee-45fd-80bd-07ea669054a3</id>
+            <name>Horizon Noizquito (Microdrone)</name>
+            <hide />
+        </vehicle>
+    </vehicles>
+    <mods>
+        <mod>
+            <id>356eee5f-1f2d-4ed8-8db1-d0989c69a755</id>
+            <name>Micro Weapon Mount (Drone)</name>
+            <hide />
+        </mod>
+    </mods>
 
 </chummer>
