@@ -1031,10 +1031,26 @@
       		<name>Latent Dracomorphosis</name>
         	<hide />
     	</quality>
+	  	<quality>
+			<id>94702bfe-ec3e-4b57-ba3e-8c45f214e9f1</id>
+      		<name>Metaviral Attunement</name>
+        	<hide />
+    	</quality>
+	  	<quality>
+			<id>b3373640-35cc-4a29-b2b0-6ded9acd8d4b</id>
+      		<name>It Works If You Work It</name>
+        	<hide />
+    	</quality>
+	  	<quality>
+			<id>b0321887-df33-49d9-9d2e-e718eca9c7a0</id>
+      		<name>Wildcard Chimera</name>
+        	<hide />
+    	</quality>
 	  
     </qualities>
 
 </chummer>
+
 
 
 
