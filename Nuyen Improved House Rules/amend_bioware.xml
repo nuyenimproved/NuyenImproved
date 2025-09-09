@@ -44,5 +44,9 @@
 			<name>Immunization</name>
 			<hide />
 		</bioware>
+		<bioware>
+			<name>Adrenaline Filter</name>
+			<hide />
+		</bioware>
 	</biowares>
 </chummer>
