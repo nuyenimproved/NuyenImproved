@@ -92,7 +92,13 @@
 			<source>CF</source>
 			<page>73</page>
 		  </cyberware>
-
+		
+	<!--Hinding Missed Banned Cyberware-->
+		<cyberware>
+			<id>e7c8dbfa-1b75-44df-9ad0-a5ba65e46cc3</id>
+      		<name>Stirrup Interface</name>
+			<hide />
+		</cyberware>
 		
 	</cyberwares>
 </chummer>
