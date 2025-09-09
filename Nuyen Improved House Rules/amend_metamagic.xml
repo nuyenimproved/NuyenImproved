@@ -43,6 +43,15 @@
       <name>Spirit Expansion: Shedim</name>
       <hide />
     </metamagic>
+      <!--Hiding Paradigm Shifts to Toxic and Insect Traditions -->
+    <metamagic>
+      <name>Paradigm Shift: Insect Shaman</name>
+      <hide />
+    </metamagic>
+    <metamagic>
+      <name>Paradigm Shift: Toxic</name>
+      <hide />
+    </metamagic>
     
     <!-- End Region -->
   </metamagics>
