@@ -224,6 +224,21 @@
 
     <!--Missing Banned Gear-->
       <gear>
+          <id>16c588e4-9961-4ddd-b5f1-e95ed100159f</id>
+          <name>Grenade: Krime Party</name>
+          <hide />
+      </gear>
+      <gear>
+          <id>7e104b61-69b3-4a7e-8221-a6190314c411</id>
+          <name>Ammo: Zapper</name>
+          <hide />
+      </gear>
+      <gear>
+          <id>965ccb60-f9e2-4a44-8a11-05e6c5bd4457</id>
+          <name>Grenade: DumDum</name>
+          <hide />
+      </gear>
+      <gear>
           <id>31f51b7e-d2eb-4274-aead-72710b198c13</id>
           <name>Numb</name>
           <hide />
