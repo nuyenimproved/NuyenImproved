@@ -70,6 +70,51 @@
             <name>Horizon Noizquito (Microdrone)</name>
             <hide />
         </vehicle>
+         <!--hiding emergency vehicles from Stolen Souls-->
+    <vehicle>
+        <name>Corporate Mobile Command Center (Ares Roadmaster)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Law Enforcement Patrol Cruiser (Chrysler-Nissan Journey)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Moving Truck (Conestoga Trailblazer)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Moving Truck w/Trailer (Conestoga Trailblazer)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Garbage Hauler (Dodge Ram Industrial: Large)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Garbage Hauler (Dodge Ram Industrial: Narrow)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Government Black SUV (Esprit Industries Watcher)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Ambulance (GMC Endurance)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Government Pursuit SUV (GMC Sidewinder)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Corporate Patrol Cruiser (Honda Artemis)</name>
+        <hide />
+    </vehicle>
+    <vehicle>
+        <name>Municipal Ambulance (S-K LT-21)</name>
+        <hide />
+    </vehicle>
     </vehicles>
     <mods>
         <mod>
