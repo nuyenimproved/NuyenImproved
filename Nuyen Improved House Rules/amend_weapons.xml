@@ -85,6 +85,9 @@
 		<ap>-14</ap>
             	<mode>SA/BF</mode>
             	<ammo>2x12(c) or External Source</ammo>
+				<useskill>Automatics</useskill>
+				<useskillspec>Energy Weapons</useskillspec>
+				<notes>This weapon requires the energy weapon specialization to use.</notes>
     	</weapon>
     	<weapon>
       		<id>78293136-5bd0-49ac-aa9b-7c291f94c7a4</id>
@@ -99,6 +102,9 @@
             	<ap>-14</ap>
       		<mode>SA</mode>
       		<ammo>12(c) or External Source</ammo>
+			<useskill>Longarms</useskill>
+			<useskillspec>Energy Rifles</useskillspec>
+			<notes>This weapon requires the energy rifles specialization to use.</notes>
         </weapon>
 
 	<weapon>
@@ -108,6 +114,9 @@
 		<ammo>12(c) or External Source</ammo>
 		<avail>22F</avail>
 		<cost>35000</cost>
+		<useskill>Automatics</useskill>
+		<useskillspec>Energy Weapons</useskillspec>
+		<notes>This weapon requires the energy weapon specialization to use.</notes>
 	</weapon>
 
 	<!-- Region Ultimax Errata -->
@@ -117,7 +126,6 @@
 			<damage>11P</damage>
 			<ap>-2</ap>
 		</weapon>
-	</weapons>
 
 	<weapon>
 		<id>99cbc9c0-11b6-4906-9dba-adc217592b92</id>
@@ -125,8 +133,436 @@
 		<ap>-5</ap>
 	</weapon>
 
-
-	
+		<!-- Making Exotic Weapons Use Their Proper Skills -->
+	<weapon>
+		<name>Grapple Gun</name>
+		<useskill>Archery</useskill>
+		<useskillspec>Grapple Guns</useskillspec>
+		<notes>This weapon requires the grapple gun specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Tactical Grapple Gun</name>
+		<useskill>Archery</useskill>
+		<useskillspec>Grapple Guns</useskillspec>
+		<notes>This weapon requires the grapple gun specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>SA Retiarius Net Gun</name>
+		<useskill>Archery</useskill>
+		<useskillspec>Net Guns</useskillspec>
+		<notes>This weapon requires the net gun specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>SA Retarius Net Gun XL</name>
+		<useskill>Archery</useskill>
+		<useskillspec>Net Guns</useskillspec>
+		<notes>This weapon requires the net gun specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ash Arms Combat Chainsaw</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Chainsaws</useskillspec>
+		<notes>This weapon requires the chainsaws specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Monofilament Chainsaw</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Chainsaws</useskillspec>
+		<notes>This weapon requires the chainsaws specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ash Arms Monofilament Chainsaw</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Chainsaws</useskillspec>
+		<notes>This weapon requires the chainsaws specialization to use.</notes>
+	</weapon>
+		<weapon>
+		<name>Chainsaw</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Chainsaws</useskillspec>
+		<notes>This weapon requires the chainsaws specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Underbarrel Chainsaw</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Chainsaws</useskillspec>
+		<notes>This weapon requires the chainsaws specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Injector Pen</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Injector Pen</useskillspec>
+		<notes>This weapon requires the injector pen specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Rolling Blades</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Rolling Blades</useskillspec>
+		<notes>This weapon requires the rolling blades specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Monofilament Whip</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Whips</useskillspec>
+		<notes>This weapon requires the whips specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Bullwhip</name>
+		<useskill>Blades</useskill>
+		<useskillspec>Whips</useskillspec>
+		<notes>This weapon requires the whips specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Battering Ram, Fluid-Motion</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Battering Rams</useskillspec>
+		<notes>This weapon requires the battering rams specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Battering Ram, Pneumatic</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Battering Rams</useskillspec>
+		<notes>This weapon requires the battering rams specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Battering Ram, Shock</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Battering Rams</useskillspec>
+		<notes>This weapon requires the battering rams specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Battering Ram, Standard</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Battering Rams</useskillspec>
+		<notes>This weapon requires the battering rams specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Krime Stun Lance</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Krime Stun Lance</useskillspec>
+		<notes>This weapon requires the krime stun lance specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Ballistic Shield</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Shields</useskillspec>
+		<notes>This weapon requires the shields specialization to use.</notes>
+	</weapon>
+	</weapon>
+		<weapon>
+		<name>Blast Shield</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Shields</useskillspec>
+		<notes>This weapon requires the shields specialization to use.</notes>
+	</weapon>
+	</weapon>
+	<weapon>
+		<name>Riot Shield</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Shields</useskillspec>
+		<notes>This weapon requires the shields specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ares Briefcase Shield</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Shields</useskillspec>
+		<notes>This weapon requires the shields specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Hardened Skateboard</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Skateboards</useskillspec>
+		<notes>This weapon requires the skateboards specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Bladed Skateboard</name>
+		<useskill>Clubs</useskill>
+		<useskillspec>Skateboards</useskillspec>
+		<notes>This weapon requires the skateboards specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ares Archon Heavy MP Laser</name>
+		<useskill>Heavy Weapons</useskill>
+		<useskillspec>Ares Archon Heavy MP Laser</useskillspec>
+		<notes>This weapon requires the ares archon heavy mp specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Halloweener Barbecue Lighter</name>
+		<useskill>Heavy Weapons</useskill>
+		<useskillspec>Flamethrowers</useskillspec>
+		<notes>This weapon requires the flamethrowers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Shiawase Arms Incinerator</name>
+		<useskill>Heavy Weapons</useskill>
+		<useskillspec>Flamethrowers</useskillspec>
+		<notes>This weapon requires the flamethrowers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Shiawase Blazer</name>
+		<useskill>Heavy Weapons</useskill>
+		<useskillspec>Flamethrowers</useskillspec>
+		<notes>This weapon requires the flamethrowers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Shiawase Blazer</name>
+		<useskill>Heavy Weapons</useskill>
+		<useskillspec>Flamethrowers</useskillspec>
+		<notes>This weapon requires the flamethrowers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ares Screech Sonic Rifle</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Energy Rifles</useskillspec>
+		<notes>This weapon requires the energy rifles specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Fichetti Pain Inducer</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Energy Rifles</useskillspec>
+		<notes>This weapon requires the energy rifles specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Narcoject PEP</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Energy Rifles</useskillspec>
+		<notes>This weapon requires the energy rifles specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Underbarrel Flamethrower</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Exotic Underbarrel Accessories</useskillspec>
+		<notes>This weapon requires the exotic underbarrel accessories specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Underbarrel Laser</name>
+		<ap>-14</ap>
+		<useskill>Longarms</useskill>
+		<useskillspec>Exotic Underbarrel Accessories</useskillspec>
+		<notes>This weapon requires the exotic underbarrel accessories specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Underbarrel Grapple Gun</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Exotic Underbarrel Accessories</useskillspec>
+		<notes>This weapon requires the exotic underbarrel accessories specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Underbarrel Bola Launcher</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Exotic Underbarrel Accessories</useskillspec>
+		<notes>This weapon requires the exotic underbarrel accessories specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ares S-III Super Squirt</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Fluid Ejectors</useskillspec>
+		<notes>This weapon requires the fluid ejectors specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Hold-Fast Sprayer</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Fluid Ejectors</useskillspec>
+		<notes>This weapon requires the fluid ejectors specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Narcoject Trackstopper</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Fluid Ejectors</useskillspec>
+		<notes>This weapon requires the fluid ejectors specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Knockoff Gun Cane</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Gun Canes</useskillspec>
+		<notes>This weapon requires the gun canes specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Mortimer of London 'Trafalger' Gun Cane</name>
+		<useskill>Longarms</useskill>
+		<useskillspec>Gun Canes</useskillspec>
+		<notes>This weapon requires the gun canes specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Ares Redline</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Ares Redline</useskillspec>
+		<notes>This weapon requires the ares redline specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Parashield Dart Pistol</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Medical</useskillspec>
+		<notes>This weapon requires the medical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Modified Spray Pen</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Medical</useskillspec>
+		<notes>This weapon requires the medical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Narcoject Gas Gun</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Medical</useskillspec>
+		<notes>This weapon requires the medical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Pepper Punch Pen</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Medical</useskillspec>
+		<notes>This weapon requires the medical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>FN-AAL Gyrojet Pistol</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Self-Propelled</useskillspec>
+		<notes>This weapon requires the self-propelled specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Micro Flare Launcher</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Self-Propelled</useskillspec>
+		<notes>This weapon requires the self-propelled specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Shiawase Arms Simoom</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Shooting Bracers</useskillspec>
+		<notes>This weapon requires the shooting bracers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Tiffani Elegance Shooting Bracers</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Shooting Bracers</useskillspec>
+		<notes>This weapon requires the shooting bracers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Flame Bracer</name>
+		<useskill>Pistols</useskill>
+		<useskillspec>Shooting Bracers</useskillspec>
+		<notes>This weapon requires the shooting bracers specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Bola</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Bolas</useskillspec>
+		<notes>This weapon requires the bolas specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Monofilament Bola</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Bolas</useskillspec>
+		<notes>This weapon requires the bolas specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Chakram</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Historical</useskillspec>
+		<notes>This weapon requires the historical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Net</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Historical</useskillspec>
+		<notes>This weapon requires the historical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Gunstock War Club (Thrown)</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Historical</useskillspec>
+		<notes>This weapon requires the historical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Blowgun</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Historical</useskillspec>
+		<notes>This weapon requires the historical specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Throwing Syringe</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Throwing Syringe</useskillspec>
+		<notes>This weapon requires the throwing syringe specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Hardened Yo-Yo</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Yo-yo's</useskillspec>
+		<notes>This weapon requires the yo-yo's specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Bladed Yo-Yo</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Yo-yo's</useskillspec>
+		<notes>This weapon requires the yo-yo's specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Monofilament Yo-Yo</name>
+		<useskill>Throwing Weapons</useskill>
+		<useskillspec>Yo-yo's</useskillspec>
+		<notes>This weapon requires the yo-yo's specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Garrote</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Garrottes</useskillspec>
+		<notes>This weapon requires the garrottes specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Monofilament Garrote</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Garrottes</useskillspec>
+		<notes>This weapon requires the garrottes specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Monofilament Garrote</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Garrottes</useskillspec>
+		<notes>This weapon requires the garrottes specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Grapple Fist</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Grapple Hand</useskillspec>
+		<notes>This weapon requires the grapple hand specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Oral Slasher</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Oral</useskillspec>
+		<notes>This weapon requires the oral specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Proboscis</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Oral</useskillspec>
+		<notes>This weapon requires the oral specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Goring Horns</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Primal</useskillspec>
+		<notes>This weapon requires the primal specialization to use.</notes>
+	</weapon>
+	<weapon>
+		<name>Functional Tail (Thagomizer)</name>
+		<useskill>Unarmed Combat</useskill>
+		<useskillspec>Primal</useskillspec>
+		<notes>This weapon requires the primal specialization to use.</notes>
+	</weapon>
+</weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
 		<accessories>
@@ -134,11 +570,11 @@
 				<specialmodification>True</specialmodification>
 				<required amendoperation='replace' />
 			</accessory>
-		</accessories>
 
 		<!-- Region Ammo Avail for Weapons that can be got at Gen! -->
-		<accessory>
-			<name>Peak-Discharge Battery Pack, Power Clip</name>
-			<avail>12F</avail>
-		</accessory>
+			<accessory>
+				<name>Peak-Discharge Battery Pack, Power Clip</name>
+				<avail>12F</avail>
+			</accessory>
+		</accessories>
 </chummer>
