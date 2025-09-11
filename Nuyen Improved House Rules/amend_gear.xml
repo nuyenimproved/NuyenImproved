@@ -239,15 +239,54 @@
           <hide />
       </gear>
       <gear>
+          <name>Ammo: Spinstorm Ferrous Slugs</name>
+          <hide />
+      </gear>
+      <gear>
           <id>31f51b7e-d2eb-4274-aead-72710b198c13</id>
           <name>Numb</name>
           <hide />
       </gear>
+      <gear>
+          <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 (Public Grid)</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 (Local Grid)</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 (Megacorporate Grid)</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 Rifle (Public Grid)</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 Rifle (Local Grid)</name>
+          <hide />
+      </gear>
+      <gear>
+          <name>Ammo: E0-E0 Rifle (Megacorporate Grid)</name>
+          <hide />
+      </gear>
 
-      <!--Missing Banned Gear-->
+      <!--Hopefully Hiding Agents From RCCs-->
       <gear>
           <name>Agent</name>
           <category>Hacking Programs</category>
       </gear>
+
+      <!--Banning Douser Grenades-->
+      <gear>
+          <name>Grenade: Douser</name>
+          <hide />
+      </gear>
+      
   </gears>
 </chummer>
