@@ -216,4 +216,40 @@
         </mod>
     </mods>
 
+    <!-- Adding a note to the none mini and micro drones with body 1 that you shouldn't add weapon mounts to them -->
+    <vehicles>
+        <vehicle>
+            <name>Horizon Little Buddy</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Wheelie) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Treads) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Dirty) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Quad) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Swims) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Hovers) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+        <vehicle>
+            <name>MCT Seven (Soars) (Small)</name>
+            <notes>This drone does not support any weapon mounts.</notes>
+        </vehicle>
+    </vehicles>
+
 </chummer>
