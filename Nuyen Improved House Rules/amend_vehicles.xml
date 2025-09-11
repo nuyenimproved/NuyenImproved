@@ -122,6 +122,98 @@
             <name>Micro Weapon Mount (Drone)</name>
             <hide />
         </mod>
+
+        <!-- Hiding Weapon Mounts from Body 0 and 1 Drones -->
+        <mod>
+            <name>Mini Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
+        <mod>
+            <name>Small Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
+        <mod>
+            <name>Standard Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
+        <mod>
+            <name>Large Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
+        <mod>
+            <name>Huge Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
+        <mod>
+            <name>Heavy Weapon Mount (Drone)</name>
+            <required>
+                <vehicledetails amendoperation='replace'>
+                    <oneof>
+                        <category>Drones: Small</category>
+                        <category>Drones: Medium</category>
+                        <category>Drones: Anthro</category>
+                        <category>Drones: Large</category>
+                        <category>Drones: Huge</category>
+                        <category>Drones: Missile</category>
+                    </oneof>
+                </vehicledetails>
+            </required>
+        </mod>
     </mods>
 
 </chummer>
