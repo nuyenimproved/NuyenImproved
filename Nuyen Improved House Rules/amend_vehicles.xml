@@ -138,6 +138,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
         <mod>
             <name>Small Weapon Mount (Drone)</name>
@@ -153,6 +154,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
         <mod>
             <name>Standard Weapon Mount (Drone)</name>
@@ -168,6 +170,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
         <mod>
             <name>Large Weapon Mount (Drone)</name>
@@ -183,6 +186,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
         <mod>
             <name>Huge Weapon Mount (Drone)</name>
@@ -198,6 +202,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
         <mod>
             <name>Heavy Weapon Mount (Drone)</name>
@@ -213,6 +218,7 @@
                     </oneof>
                 </vehicledetails>
             </required>
+            <notes>This mount does not support melee weapons with a reach of 1 or greater except when installed on an anthro drones.</notes>
         </mod>
     </mods>
 
