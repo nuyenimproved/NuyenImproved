@@ -611,7 +611,7 @@
           <quality>Poor Self Control (Combat Monster)</quality>
           <quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
           <quality>Poor Self Control (Compulsive IV, Personal)</quality>
-          <quality>Reduce Sense (Touch)</quality>
+          <quality>Reduced Sense (Touch)</quality>
           <quality>Weak Immune System</quality>
         </selectquality>
       </bonus>
@@ -1045,6 +1045,7 @@
     </qualities>
 
 </chummer>
+
 
 
 
