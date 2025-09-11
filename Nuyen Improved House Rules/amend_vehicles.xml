@@ -276,6 +276,57 @@
                 </vehicledetails>
             </forbidden>
         </weaponmount>
+        <weaponmount>
+            <name>Light</name>
+            <forbidden amendoperation='replace'>
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                </vehicledetails>
+                <weaponmountdetails>
+                  <control>Manual [SR5]</control>
+                  <control>Remote [SR5]</control>
+                  <flexibility>Flexible [SR5]</flexibility>
+                  <visibility>External [SR5]</visibility>
+                  <control>None</control>
+                  <flexibility>None</flexibility>
+                  <visibility>None</visibility>
+                </weaponmountdetails>
+            </forbidden>
+        </weaponmount>
+        <weaponmount>
+            <name>Standard</name>
+            <forbidden amendoperation='replace'>
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                </vehicledetails>
+                <weaponmountdetails>
+                  <control>Manual [SR5]</control>
+                  <control>Remote [SR5]</control>
+                  <flexibility>Flexible [SR5]</flexibility>
+                  <visibility>External [SR5]</visibility>
+                  <control>None</control>
+                  <flexibility>None</flexibility>
+                  <visibility>None</visibility>
+                </weaponmountdetails>
+            </forbidden>
+        </weaponmount>
+        <weaponmount>
+            <name>Heavy</name>
+            <forbidden amendoperation='replace'>
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                </vehicledetails>
+                <weaponmountdetails>
+                  <control>Manual [SR5]</control>
+                  <control>Remote [SR5]</control>
+                  <flexibility>Flexible [SR5]</flexibility>
+                  <visibility>External [SR5]</visibility>
+                  <control>None</control>
+                  <flexibility>None</flexibility>
+                  <visibility>None</visibility>
+                </weaponmountdetails>
+            </forbidden>
+        </weaponmount>
     </weaponmounts>
 
 </chummer>
