@@ -257,5 +257,25 @@
             <notes>This drone does not support any weapon mounts.</notes>
         </vehicle>
     </vehicles>
+    
+    <!-- Hiding the core rulebook weapon mounts from drones -->
+    <weaponmounts>
+        <weaponmount>
+            <name>Standard [SR5]</name>
+            <forbidden>
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                </vehicledetails>
+            </forbidden>
+        </weaponmount>
+        <weaponmount>
+            <name>Heavy [SR5]</name>
+            <forbidden>
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                </vehicledetails>
+            </forbidden>
+        </weaponmount>
+    </weaponmounts>
 
 </chummer>
