@@ -287,6 +287,12 @@
           <name>Grenade: Douser</name>
           <hide />
       </gear>
+
+      <!--Adding a note to Smoke and Mirrors to remind players of the houserules-->
+      <gear>
+          <name>Smoke and Mirrors</name>
+          <notes>Because noise is not as rigidly applied as it is in RAW, the penalty from Smoke and Mirrors is changed to a general dice pool penalty to Matrix Actions and Resonance Actions, not a Noise level. The user still receives the relevant bonus to resist Trace Icon tests.</notes>
+      </gear>
       
   </gears>
 </chummer>
