@@ -243,5 +243,11 @@
           <name>Numb</name>
           <hide />
       </gear>
+
+      <!--Missing Banned Gear-->
+      <gear>
+          <name>Agent</name>
+          <category>Hacking Programs</category>
+      </gear>
   </gears>
 </chummer>
