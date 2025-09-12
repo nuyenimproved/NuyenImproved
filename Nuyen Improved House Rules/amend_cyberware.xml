@@ -119,6 +119,12 @@
 			<name>SEIS</name>
 			<hide />
 		</cyberware>
+
+		<!--Hinding armor to instead use custom grades-->
+		<cyberware>
+			<name>Armor</name>
+			<hide />
+		</cyberware>
 		
 	</cyberwares>
 </chummer>
