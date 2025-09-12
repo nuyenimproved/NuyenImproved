@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+
+<!--Adding cyberlimb armor grades to keep people from adding too much armor to a limb. -->
+<chummer>
+  <cyberwares>
+    <cyberware>
+      <id>2037bfa2-8010-4315-ad44-44d41bf671c9</id>
+      <name>Armor (Hand/Foot/Half-Skull)</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>Rating * 5</avail>
+      <cost>Rating * 3000</cost>
+      <source>SR5</source>
+      <page>456</page>
+      <bonus>
+        <armor>Rating</armor>
+      </bonus>
+      <rating>1</rating>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Obvious Foot</name>
+            <name operation="contains">Obvious Hand</name>
+            <name>Partial Cyberskull</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>dc4ec682-df98-4705-b003-2b0206b70eb3</id>
+      <name>Armor (Lower Arm/Lower Leg/Skull)</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>Rating * 5</avail>
+      <cost>Rating * 3000</cost>
+      <source>SR5</source>
+      <page>456</page>
+      <bonus>
+        <armor>Rating</armor>
+      </bonus>
+      <rating>2</rating>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Obvious Lower Leg</name>
+            <name operation="contains">Obvious Lower Arm</name>
+            <name>Obvious Skull</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>12c0b039-7549-4616-8049-765e43df1bbe</id>
+      <name>Armor (Full Arm/Full Leg/Torso/Liminal Chassis)</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>Rating * 5</avail>
+      <cost>Rating * 3000</cost>
+      <source>SR5</source>
+      <page>456</page>
+      <bonus>
+        <armor>Rating</armor>
+      </bonus>
+      <rating>3</rating>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Obvious Full Leg</name>
+            <name>Drone Leg</name>
+            <name operation="contains">Obvious Full Arm</name>
+            <name>Drone Arm</name>
+            <name>Primitive Drone Arm</name>
+            <name>Primitive Drone Leg</name>
+            <name>Obvious Torso</name>
+            <name>Liminal Body, Tank (Full)</name>
+            <name>Liminal Body, Wheeled (Full)</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+  </cyberwares>
+</chummer>
