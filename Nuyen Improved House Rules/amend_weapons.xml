@@ -564,4 +564,20 @@
 				<avail>12F</avail>
 			</accessory>
 		</accessories>
+
+		<!--Making gecko grip and personalized grip exclusive. -->
+	<accessories>
+		<accessory>
+			<name>Gecko Grip</name>
+			<forbidden>
+				<name>Personalized Grip</name>
+			</forbidden>
+		</accessory>
+		<accessory>
+			<name>Personalized Grip</name>
+			<forbidden>
+				<name>Gecko Grip</name>
+			</forbidden>
+		</accessory>
+	</accessories>
 </chummer>
