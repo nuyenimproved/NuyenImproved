@@ -182,13 +182,11 @@
 		<useskillspec>Chainsaws</useskillspec>
 		<notes>This weapon requires the chainsaws specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Underbarrel Chainsaw</name>
 		<useskill>Blades</useskill>
 		<useskillspec>Chainsaws</useskillspec>
 		<notes>This weapon requires the chainsaws specialization to use.</notes>
-	</weapon>
 	</weapon>
 		<weapon>
 		<name>Injector Pen</name>
@@ -196,13 +194,11 @@
 		<useskillspec>Injector Pen</useskillspec>
 		<notes>This weapon requires the injector pen specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Rolling Blades</name>
 		<useskill>Blades</useskill>
 		<useskillspec>Rolling Blades</useskillspec>
 		<notes>This weapon requires the rolling blades specialization to use.</notes>
-	</weapon>
 	</weapon>
 		<weapon>
 		<name>Monofilament Whip</name>
@@ -210,13 +206,11 @@
 		<useskillspec>Whips</useskillspec>
 		<notes>This weapon requires the whips specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Bullwhip</name>
 		<useskill>Blades</useskill>
 		<useskillspec>Whips</useskillspec>
 		<notes>This weapon requires the whips specialization to use.</notes>
-	</weapon>
 	</weapon>
 		<weapon>
 		<name>Battering Ram, Fluid-Motion</name>
@@ -224,13 +218,11 @@
 		<useskillspec>Battering Rams</useskillspec>
 		<notes>This weapon requires the battering rams specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Battering Ram, Pneumatic</name>
 		<useskill>Clubs</useskill>
 		<useskillspec>Battering Rams</useskillspec>
 		<notes>This weapon requires the battering rams specialization to use.</notes>
-	</weapon>
 	</weapon>
 		<weapon>
 		<name>Battering Ram, Shock</name>
@@ -238,13 +230,11 @@
 		<useskillspec>Battering Rams</useskillspec>
 		<notes>This weapon requires the battering rams specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Battering Ram, Standard</name>
 		<useskill>Clubs</useskill>
 		<useskillspec>Battering Rams</useskillspec>
 		<notes>This weapon requires the battering rams specialization to use.</notes>
-	</weapon>
 	</weapon>
 		<weapon>
 		<name>Krime Stun Lance</name>
@@ -252,20 +242,17 @@
 		<useskillspec>Krime Stun Lance</useskillspec>
 		<notes>This weapon requires the krime stun lance specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Ballistic Shield</name>
 		<useskill>Clubs</useskill>
 		<useskillspec>Shields</useskillspec>
 		<notes>This weapon requires the shields specialization to use.</notes>
 	</weapon>
-	</weapon>
 		<weapon>
 		<name>Blast Shield</name>
 		<useskill>Clubs</useskill>
 		<useskillspec>Shields</useskillspec>
 		<notes>This weapon requires the shields specialization to use.</notes>
-	</weapon>
 	</weapon>
 	<weapon>
 		<name>Riot Shield</name>
