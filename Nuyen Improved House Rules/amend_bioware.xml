@@ -52,8 +52,9 @@
 		<!--Adding note about the interaction of cyberlimbs and orthoskin to orthoskin. -->
 		<bioware>
 			<name>Orthoskin</name>
-			<forbidden>
+			<forbidden amendoperation='replace'>
 				<oneof>
+					<cyberware>Dermal Plating</cyberware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
