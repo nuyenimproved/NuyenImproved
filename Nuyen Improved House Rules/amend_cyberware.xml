@@ -127,6 +127,7 @@
 		</cyberware>
 
 		<!--Adding note to cyberlimbs letting players know about it's interaction with orthoskin and dermal plating.-->
+		<!--
 		<cyberware>
 			<name>Obvious Full Arm</name>
 			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
@@ -166,6 +167,30 @@
 		<cyberware>
 			<name>Dermal Plating</name>
 			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
+		</cyberware>
+		-->
+		<cyberware>
+			<name>Dermal Plating</name>
+			<forbidden>
+				<oneof>
+					<group>
+						<cyberware operation="contains" count="2">Full Leg</cyberware>
+						<cyberware operation="contains">Full Arm</cyberware>
+					</group>
+					<group>
+						<cyberware operation="contains" count="2">Full Arm</cyberware>
+						<cyberware operation="contains">Full Leg</cyberware>
+					</group>
+					<group>
+						<cyberware operation="contains">Liminal Body</cyberware>
+						<cyberware operation="contains">Full Leg</cyberware>
+					</group>
+					<group>
+						<cyberware operation="contains">Liminal Body</cyberware>
+						<cyberware operation="contains">Full Arm</cyberware>
+					</group>
+				</oneof>
+			</forbidden>
 		</cyberware>
 		
 	</cyberwares>
