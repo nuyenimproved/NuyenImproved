@@ -221,6 +221,10 @@
 		<skill>
 			<name>Archery</name>
 			<specs amendoperation="replace">
+				<spec>Bow</spec>
+        		<spec>Crossbow</spec>
+       			<spec>Non-Standard Ammunition</spec>
+        		<spec>Slingshot</spec>
 				<spec>Grapple Guns</spec>
 				<spec>Net Guns</spec>
 			</specs>
