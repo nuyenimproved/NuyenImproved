@@ -293,6 +293,18 @@
           <name>Smoke and Mirrors</name>
           <notes>Because noise is not as rigidly applied as it is in RAW, the penalty from Smoke and Mirrors is changed to a general dice pool penalty to Matrix Actions and Resonance Actions, not a Noise level. The user still receives the relevant bonus to resist Trace Icon tests.</notes>
       </gear>
+
+      <!--Switching the capacity and cost of image link and sound link to 0 since it comes standard with all devices.-->
+      <gear>
+          <name>Image Link</name>
+          <capacity>[0]</capacity>
+          <cost>0</cost>
+      </gear>
+      <gear>
+          <name>Sound Link</name>
+          <capacity>[0]</capacity>
+          <cost>0</cost>
+      </gear>
       
   </gears>
 </chummer>
