@@ -39,8 +39,8 @@
       <required>
         <parentdetails>
           <OR>
-            <name operation="contains">Obvious Foot</name>
-            <name operation="contains">Obvious Hand</name>
+            <name operation="contains">Foot</name>
+            <name operation="contains">Hand</name>
             <name>Partial Cyberskull</name>
           </OR>
         </parentdetails>
@@ -64,9 +64,10 @@
       <required>
         <parentdetails>
           <OR>
-            <name operation="contains">Obvious Lower Leg</name>
-            <name operation="contains">Obvious Lower Arm</name>
+            <name operation="contains">Lower Leg</name>
+            <name operation="contains">Lower Arm</name>
             <name>Obvious Skull</name>
+            <name>Synthetic Skull</name>
           </OR>
         </parentdetails>
       </required>
@@ -91,13 +92,14 @@
           <OR>
             <name>Centaur Front Leg</name>
             <name>Centaur Rear Leg</name>
-            <name operation="contains">Obvious Full Leg</name>
+            <name operation="contains">Full Leg</name>
             <name>Drone Leg</name>
-            <name operation="contains">Obvious Full Arm</name>
+            <name operation="contains">Full Arm</name>
             <name>Drone Arm</name>
             <name>Primitive Drone Arm</name>
             <name>Primitive Drone Leg</name>
             <name>Obvious Torso</name>
+            <name>Synthetic Torso</name>
             <name>Liminal Body, Tank (Full)</name>
             <name>Liminal Body, Wheeled (Full)</name>
           </OR>
