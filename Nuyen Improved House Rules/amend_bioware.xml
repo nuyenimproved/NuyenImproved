@@ -53,7 +53,7 @@
 		<bioware>
 			<name>Orthoskin</name>
 			<forbidden amendoperation='replace'>
-				<oneof>
+				<OR>
 					<cyberware>Dermal Plating</cyberware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
@@ -71,7 +71,7 @@
 						<cyberware operation="contains">Liminal Body</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
 					</group>
-				</oneof>
+				</OR>
 			</forbidden>
 		</bioware>
 	</biowares>
