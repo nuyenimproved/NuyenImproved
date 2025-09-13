@@ -171,8 +171,8 @@
 						<cyberware operation="contains">Full Leg</cyberware>
 					</group>
 					<group>
-						<cyberware operation="contains">Liminal Body</cyberware>
-						<cyberware operation="contains">Full Arm</cyberware>
+						<cyberware>Liminal Body, Centaur</cyberware>
+						<cyberware>Obvious Full Arm</cyberware>
 					</group>
 				</oneof>
 			</forbidden>
