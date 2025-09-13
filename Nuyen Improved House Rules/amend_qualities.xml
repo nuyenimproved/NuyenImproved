@@ -1041,10 +1041,15 @@
 	  	<quality  xpathfilter="starts-with(name, 'Free Insect Spirit')">
       		<hide />
    	 	</quality>
+	  	<quality>
+      		<name>One With the Matrix III</name>
+        	<hide />
+		</quality>
 	  
     </qualities>
 
 </chummer>
+
 
 
 
