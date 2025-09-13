@@ -565,19 +565,20 @@
 			</accessory>
 		</accessories>
 
-		<!--Making gecko grip and personalized grip exclusive. -->
+		<!--Adding a note to tell players gecko grip and personalized grip are exclusive. -->
 	<accessories>
 		<accessory>
 			<name>Gecko Grip</name>
-			<forbidden>
-				<name>Personalized Grip</name>
-			</forbidden>
+			 <notes>This accessory is incompatable with Personalized Grip.</notes>
 		</accessory>
 		<accessory>
 			<name>Personalized Grip</name>
-			<forbidden>
-				<name>Gecko Grip</name>
-			</forbidden>
+			<notes>This accessory is incompatable with Gecko Grip.</notes>
+		</accessory>
+		<!--Removing the barrel modification slot from the long barrel accessory. -->
+		<accessory>
+			<name>Long Barrel</name>
+			<mount amendoperation='replace' />
 		</accessory>
 	</accessories>
 </chummer>
