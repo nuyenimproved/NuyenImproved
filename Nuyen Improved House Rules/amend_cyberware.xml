@@ -131,7 +131,7 @@
 			<id>6ba5239b-651e-456a-bcc9-f58d975d2397</id>
 			<name>Dermal Plating</name>
 			<forbidden amendoperation='replace'>
-				<oneof>
+				<OR>
 					<bioware>Orthoskin</bioware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
@@ -149,14 +149,14 @@
 						<cyberware operation="contains">Liminal Body</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
 					</group>
-				</oneof>
+				</OR>
 			</forbidden>
 		</cyberware>
 		<cyberware>
 			<id>a541294c-dac9-4e11-b1c0-fbb9e354afe3</id>
 			<name>Dermal Plating (2050)</name>
 			<forbidden amendoperation='replace'>
-				<oneof>
+				<OR>
 					<bioware>Orthoskin</bioware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
@@ -174,7 +174,7 @@
 						<cyberware operation="contains">Liminal Body</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
 					</group>
-				</oneof>
+				</OR>
 			</forbidden>
 		</cyberware>
 		
