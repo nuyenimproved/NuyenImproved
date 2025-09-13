@@ -126,53 +126,13 @@
 			<hide />
 		</cyberware>
 
-		<!--Adding note to cyberlimbs letting players know about it's interaction with orthoskin and dermal plating.-->
-		<!--
+		<!--Hopefully hiding demal plating when you have too many cyberlimbs.-->
 		<cyberware>
-			<name>Obvious Full Arm</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Obvious Full Leg</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Synthetic Full Arm</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Synthetic Full Leg</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Obvious Torso</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Synthetic Torso</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Liminal Body, Centaur</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Liminal Body, Wheeled (Full)</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
-			<name>Liminal Body, Tank (Full)</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		<cyberware>
+			<id>6ba5239b-651e-456a-bcc9-f58d975d2397</id>
 			<name>Dermal Plating</name>
-			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
-		</cyberware>
-		-->
-		<cyberware>
-			<name>Dermal Plating</name>
-			<forbidden>
+			<forbidden amendoperation='replace'>
 				<oneof>
+					<bioware>Orthoskin</bioware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
@@ -193,9 +153,11 @@
 			</forbidden>
 		</cyberware>
 		<cyberware>
+			<id>a541294c-dac9-4e11-b1c0-fbb9e354afe3</id>
 			<name>Dermal Plating (2050)</name>
-			<forbidden>
+			<forbidden amendoperation='replace'>
 				<oneof>
+					<bioware>Orthoskin</bioware>
 					<group>
 						<cyberware operation="contains" count="2">Full Leg</cyberware>
 						<cyberware operation="contains">Full Arm</cyberware>
