@@ -305,6 +305,12 @@
           <capacity>[0]</capacity>
           <cost>0</cost>
       </gear>
+
+      <!--Hiding Pharmaceutical Grade Drugs-->
+      <gear>
+          <name>Pharmaceutical</name>
+          <hide />
+      </gear>
       
   </gears>
 </chummer>
