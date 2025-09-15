@@ -382,6 +382,12 @@
 		<notes>This weapon requires the gun canes specialization to use.</notes>
 	</weapon>
 	<weapon>
+		<name>Parashield Dart Rifle</name>
+		<useskill>Longarms</useskill>
+		<spec>Parashield Dart Rifle</spec>
+		<notes>This weapon requires the parashield dart rifle specialization to use.</notes>
+	</weapon>
+	<weapon>
 		<name>Ares Redline</name>
 		<useskill>Pistols</useskill>
 		<spec>Ares Redline</spec>
