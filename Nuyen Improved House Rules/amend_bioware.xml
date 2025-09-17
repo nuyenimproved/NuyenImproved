@@ -52,27 +52,7 @@
 		<!--Adding note about the interaction of cyberlimbs and orthoskin to orthoskin. -->
 		<bioware>
 			<name>Orthoskin</name>
-			<forbidden amendoperation='replace'>
-				<oneof>
-					<cyberware>Dermal Plating</cyberware>
-					<group>
-						<cyberware operation="contains" count="2">Full Leg</cyberware>
-						<cyberware operation="contains">Full Arm</cyberware>
-					</group>
-					<group>
-						<cyberware operation="contains" count="2">Full Arm</cyberware>
-						<cyberware operation="contains">Full Leg</cyberware>
-					</group>
-					<group>
-						<cyberware operation="contains">Liminal Body</cyberware>
-						<cyberware operation="contains">Full Leg</cyberware>
-					</group>
-					<group>
-						<cyberware operation="contains">Liminal Body</cyberware>
-						<cyberware operation="contains">Full Arm</cyberware>
-					</group>
-				</oneof>
-			</forbidden>
+			<notes>If you take at least three full limb replacements or a liminal body replacement and at least one full limb replacement you may no longer take or benefit from orthoskin or demal plating.</notes>
 		</bioware>
 	</biowares>
 </chummer>
