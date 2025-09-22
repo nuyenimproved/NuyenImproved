@@ -23,10 +23,10 @@
 
   <metamagics>
     <!-- Region SR5 -->
-    <metamagic>
+    <art>
       <name>Quickening</name>
       <hide />
-    </metamagic>
+    </art>
     <metamagic>
       <name>Harmonious Defense</name>
       <hide />
@@ -52,6 +52,10 @@
       <name>Paradigm Shift: Toxic</name>
       <hide />
     </metamagic>
+    <art>
+      <name>Blood Magic</name>
+      <hide />
+    </art>
     
     <!-- End Region -->
   </metamagics>
