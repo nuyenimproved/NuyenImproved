@@ -311,6 +311,127 @@
           <name>Pharmaceutical</name>
           <hide />
       </gear>
-      
+
+      <!--Buffing Arrows-->
+      <gear>
+          <name>Arrow: Monotip Head</name>
+          <cost>(Rating * 2) + 30</cost>
+          <costfor>5</costfor>
+          <weaponbonus>
+              <ap>-4</ap>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Barbed Head</name>
+          <costfor>5</costfor>
+      </gear>
+      <gear>
+          <name>Arrow: Explosive Head</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <ap>-1</ap>
+              <damage>2</damage>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Hammerhead</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <ap>2</ap>
+              <damage>1</damage>
+              <damagetype>S</damagetype>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Incendiary Head</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <damagereplace>8P</damagereplace>
+              <apreplace>-6</apreplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Screamer Head</name>
+          <costfor>5</costfor>
+      </gear>
+      <gear>
+          <name>Arrow: Stick-n-Shock</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <apreplace>-5</apreplace>
+              <damagereplace>8S(e)</damagereplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Stick-n-Shock w/Static Shaft</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <apreplace>-5</apreplace>
+              <damagereplace>12S(e)</damagereplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Arrow: Injection</name>
+          <costfor>5</costfor>
+      </gear>
+
+      <gear>
+          <name>Bolt: Barbed Head</name>
+          <costfor>5</costfor>
+      </gear>
+      <gear>
+          <name>Bolt: Explosive Head</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <ap>-1</ap>
+              <damage>2</damage>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Bolt: Hammerhead</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <ap>2</ap>
+              <damage>1</damage>
+              <damagetype>S</damagetype>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Bolt: Incendiary Head</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <damagereplace>8P</damagereplace>
+              <apreplace>-6</apreplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Bolt: Screamer Head</name>
+          <costfor>5</costfor>
+      </gear>
+      <gear>
+          <name>Bolt: Stick-n-Shock</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <apreplace>-5</apreplace>
+              <damagereplace>8S(e)</damagereplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Bolt: Stick-n-Shock w/Static Shaft</name>
+          <costfor>5</costfor>
+          <weaponbonus amendoperation="replace">
+              <apreplace>-5</apreplace>
+              <damagereplace>12S(e)</damagereplace>
+          </weaponbonus>
+      </gear>
+      <gear>
+          <name>Bolt: Injection</name>
+          <costfor>5</costfor>
+      </gear>
+
+      <gear>
+          <name>Seeker Shaft</name>
+          <hide />
+      </gear>
   </gears>
 </chummer>
