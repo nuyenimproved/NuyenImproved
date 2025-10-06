@@ -358,8 +358,8 @@
           <name>Arrow: Stick-n-Shock</name>
           <costfor>5</costfor>
           <weaponbonus amendoperation="replace">
+              <damage>-2</damage>
               <apreplace>-5</apreplace>
-              <damagereplace>8S(e)</damagereplace>
           </weaponbonus>
       </gear>
       <gear>
@@ -412,8 +412,8 @@
           <name>Bolt: Stick-n-Shock</name>
           <costfor>5</costfor>
           <weaponbonus amendoperation="replace">
+              <damage>-2</damage>
               <apreplace>-5</apreplace>
-              <damagereplace>8S(e)</damagereplace>
           </weaponbonus>
       </gear>
       <gear>
