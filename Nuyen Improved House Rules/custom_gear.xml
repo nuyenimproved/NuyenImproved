@@ -21,6 +21,21 @@
 <!--Buffing Arrows-->
 <gears>
   <gear>
+    <id>b989b443-bc46-4d42-aa46-9da81548c713</id>
+    <name>Arrow: Standard w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>SR5</source>
+    <page>423</page>
+    <avail>12F</avail>
+    <cost>45</cost>
+    <costfor>5</costfor>
+    <weaponbonus>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
+  </gear>
+  <gear>
     <id>1a0aa02e-623d-4277-ae1d-5d3b3fcf19d1</id>
     <name>Arrow: Monotip Head w/Seeker Shaft</name>
     <category>Ammunition</category>
@@ -155,7 +170,22 @@
     </weaponbonus>
     <ammoforweapontype>bow</ammoforweapontype>
   </gear>
-  
+
+  <gear>
+    <id>71ad6ff0-2da1-4425-a3a0-ca59d0c298be</id>
+    <name>Bolt: Standard w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>SR5</source>
+    <page>423</page>
+    <avail>12F</avail>
+    <cost>45</cost>
+    <costfor>5</costfor>
+    <weaponbonus>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
+  </gear>
   <gear>
     <id>74127a36-f48d-4b32-b9c5-448a29b4665b</id>
     <name>Bolt: Monotip Head</name>
