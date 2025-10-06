@@ -1,120 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+
 <!--Buffing Arrows-->
-<!--
 <gears>
   <gear>
+    <id>1a0aa02e-623d-4277-ae1d-5d3b3fcf19d1</id>
     <name>Arrow: Monotip Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>HT</source>
+    <page>187</page>
+    <avail>12F</avail>
     <cost>75</cost>
     <costfor>5</costfor>
     <weaponbonus>
       <ap>-4</ap>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
+    <id>28cc3086-337b-4f6c-8ab3-d303c16f4f5a</id>
     <name>Arrow: Barbed Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>23</page>
+    <avail>12F</avail>
+    <cost>55</cost>
     <costfor>5</costfor>
+    <weaponbonus>
+      <damage>1</damage>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
+    <id>a69a8fae-51ce-476c-97a0-0a541b06f46c</id>
     <name>Arrow: Explosive Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>23</page>
+    <avail>12F</avail>
+    <cost>60</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <ap>-1</ap>
       <damage>2</damage>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
+    <id>a3ec2fea-f01e-4dc6-b0c0-0113d165e676</id>
     <name>Arrow: Hammerhead w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>50</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <ap>2</ap>
       <damage>1</damage>
       <damagetype>S</damagetype>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
+    <id>efb95b30-00b5-4e0c-afe5-47b14c7b4f30</id>
     <name>Arrow: Incendiary Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>145</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <damagereplace>8P</damagereplace>
       <apreplace>-6</apreplace>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
+    <id>67291751-f44e-419c-b6ee-bcf57929442c</id>
     <name>Arrow: Screamer Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>50</cost>
     <costfor>5</costfor>
-  </gear>
-  <gear>
-    <name>Arrow: Stick-n-Shock w/Seeker Shaft</name>
-    <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
-      <apreplace>-5</apreplace>
-      <damagereplace>8S(e)</damagereplace>
+    <weaponbonus>
+      <ap>6</ap>
+      <damage>-2</damage>
+      <damagetype>S</damagetype>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   <gear>
-    <name>Arrow: Injection w/Seeker Shaft</name>
+    <id>ccf589c8-c428-4497-9b5f-04813fb7b23f</id>
+    <name>Arrow: Stick-n-Shock w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>70</cost>
     <costfor>5</costfor>
+    <weaponbonus>
+      <apreplace>-5</apreplace>
+      <damage>-2</damage>
+      <damagetype>S(e)</damagetype>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
+  </gear>
+  <gear>
+    <id>171e4036-df0d-4462-8e76-807c2bd903cf</id>
+    <name>Arrow: Injection w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>SR5</source>
+    <page>424</page>
+    <avail>12F</avail>
+    <cost>65</cost>
+    <costfor>5</costfor>
+    <weaponbonus>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>bow</ammoforweapontype>
   </gear>
   
   <gear>
+    <id>74127a36-f48d-4b32-b9c5-448a29b4665b</id>
     <name>Bolt: Monotip Head</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>HT</source>
+    <page>187</page>
+    <avail>12F</avail>
     <cost>(Rating * 2) + 30</cost>
     <costfor>5</costfor>
     <weaponbonus>
       <ap>-4</ap>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>34697551-d432-41e5-954e-f01985762070</id>
     <name>Bolt: Monotip Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>HT</source>
+    <page>187</page>
+    <avail>12F</avail>
     <cost>75</cost>
     <costfor>5</costfor>
     <weaponbonus>
       <ap>-4</ap>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>50ae0f1a-da51-4ede-a65d-26a829b98c05</id>
     <name>Bolt: Barbed Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>23</page>
+    <avail>12F</avail>
+    <cost>55</cost>
     <costfor>5</costfor>
+    <weaponbonus>
+      <damage>1</damage>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>28d54add-617c-4894-86b4-7b54580eed2e</id>
     <name>Bolt: Explosive Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>23</page>
+    <avail>12F</avail>
+    <cost>60</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <ap>-1</ap>
       <damage>2</damage>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>ea8c5cd4-31e7-48ee-bd31-7a036b6e4435</id>
     <name>Bolt: Hammerhead w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>50</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <ap>2</ap>
       <damage>1</damage>
       <damagetype>S</damagetype>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>6044eb5d-6c62-4dde-abf4-6db39be0b46c</id>
     <name>Bolt: Incendiary Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>145</cost>
     <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
+    <weaponbonus>
       <damagereplace>8P</damagereplace>
       <apreplace>-6</apreplace>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
+    <id>3d9961a4-60d4-4a80-994e-cd77d2c5e374</id>
     <name>Bolt: Screamer Head w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>50</cost>
     <costfor>5</costfor>
-  </gear>
-  <gear>
-    <name>Bolt: Stick-n-Shock w/Seeker Shaft</name>
-    <costfor>5</costfor>
-    <weaponbonus amendoperation="replace">
-      <apreplace>-5</apreplace>
-      <damagereplace>8S(e)</damagereplace>
+    <weaponbonus>
+      <ap>6</ap>
+      <damage>-2</damage>
+      <damagetype>S</damagetype>
+      <smartlinkpool>1</smartlinkpool>
     </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
   </gear>
   <gear>
-    <name>Bolt: Injection w/Seeker Shaft</name>
+    <id>ec2e2d6a-dafc-4130-be43-a2d3c2edbf0f</id>
+    <name>Bolt: Stick-n-Shock w/Seeker Shaft</name>
+    <category>Ammunition</category>
+    <rating>12</rating>
+    <source>RG</source>
+    <page>24</page>
+    <avail>12F</avail>
+    <cost>70</cost>
     <costfor>5</costfor>
+    <weaponbonus>
+      <apreplace>-5</apreplace>
+      <damage>-2</damage>
+      <damagetype>S(e)</damagetype>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
+    <ammoforweapontype>crossbow</ammoforweapontype>
+  </gear>
+  <gear>
+    <id>542502e0-3fd5-47d6-b756-ac842e28adbd</id>
+    <name>Bolt: Injection w/Seeker Shaft</name>
+     <category>Ammunition</category>
+    <rating>12</rating>
+    <source>SR5</source>
+    <page>424</page>
+    <avail>12F</avail>
+    <cost>65</cost>
+    <costfor>5</costfor>
+    <weaponbonus>
+      <smartlinkpool>1</smartlinkpool>
+    </weaponbonus>
   </gear>
 </gears>
--->
