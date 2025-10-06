@@ -314,6 +314,10 @@
 
       <!--Buffing Arrows-->
       <gear>
+          <name>Arrow: Standard</name>
+          <costfor>5</costfor>
+      </gear>
+      <gear>
           <name>Arrow: Monotip Head</name>
           <cost>(Rating * 2) + 30</cost>
           <costfor>5</costfor>
@@ -375,6 +379,10 @@
           <costfor>5</costfor>
       </gear>
 
+      <gear>
+          <name>Bolt: Standard</name>
+          <costfor>5</costfor>
+      </gear>
       <gear>
           <name>Bolt: Barbed Head</name>
           <costfor>5</costfor>
