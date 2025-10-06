@@ -376,6 +376,7 @@
       </gear>
       <gear>
           <name>Arrow: Injection</name>
+          <cost>(Rating * 2) + 20</cost>
           <costfor>5</costfor>
       </gear>
 
