@@ -204,7 +204,7 @@
         <id>71ad6ff0-2da1-4425-a3a0-ca59d0c298be</id>
         <name>Bolt: Standard w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>SR5</source>
         <page>423</page>
         <avail>12F</avail>
@@ -219,11 +219,11 @@
         <id>74127a36-f48d-4b32-b9c5-448a29b4665b</id>
         <name>Bolt: Monotip Head</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>HT</source>
         <page>187</page>
         <avail>12F</avail>
-        <cost>(Rating * 2) + 30</cost>
+        <cost>35</cost>
         <costfor>5</costfor>
         <weaponbonus>
           <ap>-4</ap>
@@ -234,7 +234,7 @@
         <id>34697551-d432-41e5-954e-f01985762070</id>
         <name>Bolt: Monotip Head w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>HT</source>
         <page>187</page>
         <avail>12F</avail>
@@ -250,7 +250,7 @@
         <id>50ae0f1a-da51-4ede-a65d-26a829b98c05</id>
         <name>Bolt: Barbed Head w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>23</page>
         <avail>12F</avail>
@@ -266,7 +266,7 @@
         <id>28d54add-617c-4894-86b4-7b54580eed2e</id>
         <name>Bolt: Explosive Head w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>23</page>
         <avail>12F</avail>
@@ -283,7 +283,7 @@
         <id>ea8c5cd4-31e7-48ee-bd31-7a036b6e4435</id>
         <name>Bolt: Hammerhead w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>24</page>
         <avail>12F</avail>
@@ -301,7 +301,7 @@
         <id>6044eb5d-6c62-4dde-abf4-6db39be0b46c</id>
         <name>Bolt: Incendiary Head w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>24</page>
         <avail>12F</avail>
@@ -318,7 +318,7 @@
         <id>3d9961a4-60d4-4a80-994e-cd77d2c5e374</id>
         <name>Bolt: Screamer Head w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>24</page>
         <avail>12F</avail>
@@ -336,7 +336,7 @@
         <id>ec2e2d6a-dafc-4130-be43-a2d3c2edbf0f</id>
         <name>Bolt: Stick-n-Shock w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>RG</source>
         <page>24</page>
         <avail>12F</avail>
@@ -354,7 +354,7 @@
         <id>542502e0-3fd5-47d6-b756-ac842e28adbd</id>
         <name>Bolt: Injection w/Seeker Shaft</name>
         <category>Ammunition</category>
-        <rating>12</rating>
+        <rating>0</rating>
         <source>SR5</source>
         <page>424</page>
         <avail>12F</avail>
