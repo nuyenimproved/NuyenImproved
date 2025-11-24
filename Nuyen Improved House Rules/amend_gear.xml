@@ -442,5 +442,12 @@
           <name>Seeker Shaft</name>
           <hide />
       </gear>
+
+      <!--Changing Name for Gyrojet Ammo-->
+      <gear>
+          <id>911BB20E-E325-4399-8F7A-82FDCE13AE51</id>
+          <name>Ammo: Gyrojet Taser</name>
+      </gear>
+      
   </gears>
 </chummer>
