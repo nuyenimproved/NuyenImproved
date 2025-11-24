@@ -363,7 +363,50 @@
         <weaponbonus>
           <smartlinkpool>1</smartlinkpool>
         </weaponbonus>
-      </gear>
+      </gear>\
+
+      <!--Adding Missing Gyrojet Ammos-->
+      <gear>
+          <id>51f52947-f780-466f-bc33-34e9eb7d5e77</id>
+          <name>Ammo: Gyrojet</name>
+          <category>Ammunition</category>
+          <rating>0</rating>
+          <source>RG</source>
+          <page>27</page>
+          <avail>14R</avail>
+          <cost>40</cost>
+          <costfor>10</costfor>
+          <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+        <id>1ee6fa15-7907-4813-9f10-0100a997257d</id>
+        <name>Ammo: Gyrojet+</name>
+        <category>Ammunition</category>
+        <rating>0</rating>
+        <source>RG</source>
+        <page>27</page>
+        <avail>14R</avail>
+        <cost>160</cost>
+        <costfor>10</costfor>
+        <weaponbonus>
+            <ap>-1</ap>
+            <damage>1</damage>
+        </weaponbonus>
+        <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>3d1f0a5b-7659-4997-b96c-85d90ea2188a</id>
+      <name>Ammo: Gyrojet Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>27</page>
+      <avail>14R</avail>
+      <cost>300</cost>
+      <costfor>10</costfor>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+      <notes>This ammo uses the same rules as the Stealth Tags Tracker Ammo</notes>
+    </gear>
 
   </gears>
 </chummer>
