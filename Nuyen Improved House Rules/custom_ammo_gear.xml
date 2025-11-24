@@ -368,12 +368,12 @@
       <!--Adding Missing Gyrojet Ammos-->
       <gear>
           <id>51f52947-f780-466f-bc33-34e9eb7d5e77</id>
-          <name>Ammo: Gyrojet</name>
+          <name>Ammo: Gyrojet, Regular</name>
           <category>Ammunition</category>
           <rating>0</rating>
           <source>RG</source>
           <page>27</page>
-          <avail>14R</avail>
+          <avail>12F</avail>
           <cost>40</cost>
           <costfor>10</costfor>
           <ammoforweapontype>gyrojet</ammoforweapontype>
@@ -385,7 +385,7 @@
         <rating>0</rating>
         <source>RG</source>
         <page>27</page>
-        <avail>14R</avail>
+        <avail>12F</avail>
         <cost>160</cost>
         <costfor>10</costfor>
         <weaponbonus>
@@ -396,12 +396,12 @@
     </gear>
     <gear>
       <id>3d1f0a5b-7659-4997-b96c-85d90ea2188a</id>
-      <name>Ammo: Gyrojet Tag</name>
+      <name>Ammo: Gyrojet, Tag</name>
       <category>Ammunition</category>
       <rating>0</rating>
       <source>RG</source>
       <page>27</page>
-      <avail>14R</avail>
+      <avail>12F</avail>
       <cost>300</cost>
       <costfor>10</costfor>
       <ammoforweapontype>gyrojet</ammoforweapontype>
