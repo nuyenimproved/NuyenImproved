@@ -555,6 +555,12 @@
 		<spec>Primal</spec>
 		<notes>This weapon requires the primal specialization to use.</notes>
 	</weapon>
+
+		<!--Switching the skill for forearm snap blades to unarmed to match spurs -->
+		<weapon>
+			<name>Forearm Snap-Blades</name>
+			<useskill>Unarmed Combat</useskill>
+		</weapon>
 </weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
