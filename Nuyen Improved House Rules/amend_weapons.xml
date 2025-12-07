@@ -561,6 +561,11 @@
 			<name>Forearm Snap-Blades</name>
 			<useskill>Unarmed Combat</useskill>
 		</weapon>
+		<!--Gave the Ozmium Mace the same concealability as a Claymore -->
+		<weapon>
+			<name>Osmium Mace</name>
+			<conceal>10</conceal>
+		</weapon>
 </weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
