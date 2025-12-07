@@ -560,6 +560,7 @@
 		<weapon>
 			<name>Forearm Snap-Blades</name>
 			<useskill>Unarmed Combat</useskill>
+			<spec>Forearm Snap-Blades</spec>
 		</weapon>
 		<!--Gave the Ozmium Mace the same concealability as a Claymore -->
 		<weapon>
