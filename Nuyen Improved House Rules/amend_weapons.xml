@@ -567,6 +567,12 @@
 			<name>Osmium Mace</name>
 			<conceal>10</conceal>
 		</weapon>
+
+		<!--Adjusting PEP to accept external energy and Discharge Packs -->
+		<weapon>
+			<name>Narcoject PEP</name>
+			<ammo>10(c) or External Source</ammo>
+		</weapon>
 </weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
