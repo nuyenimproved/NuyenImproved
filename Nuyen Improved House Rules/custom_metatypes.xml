@@ -19,6 +19,7 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
+	<!--
 <metatypes>
 <metatype>
       <name>Human</name>
@@ -80,4 +81,5 @@
 		</metavariants>
 	</metatype>
 	</metatypes>
+	-->
 </chummer>
