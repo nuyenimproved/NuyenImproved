@@ -162,9 +162,9 @@
 		</bonus>
     </metatype>
 <metatype>
-      <name amendoperation="append">Human</name>
+      <name>Human</name>
 		<metavariants>
-			<metavariant>
+			<metavariant amendoperation="append">
 				<id>a65386a6-1d92-47c0-972b-8a4c86700976</id>
 				<name>Valkyrie</name>
 				<category>Metavariant</category>
