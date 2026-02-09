@@ -175,7 +175,7 @@
 		
 		<!--Implementing Qualities for Pixies and Valkyries-->
 		<quality>
-			<id>a7ebe2b2-96bc-4068-8bb1-affd3b58cb97</id>
+			<id>81e4cd5c-5621-4743-a68d-14c6d1231a69</id>
 			<name>Valkyrie Wings</name>
 			<karma>0</karma>
 			<category>Positive</category>
@@ -185,7 +185,7 @@
 			<notes>This quality can only be taken by Valkyries. These wings give the Valkyrie a flying speed of 2/6/+2. This character requires metahuman adjustment to properly use vehicles without a -1 like Dwarves and Elves.</notes>
 		</quality>
 		<quality>
-			<id>bdabe9d2-f2c5-4ae8-ba9b-cc1f56381ffd</id>
+			<id>dc704c2e-c48e-433d-a5cc-fbae552ef492</id>
 			<name>Pixie Stature</name>
 			<karma>0</karma>
 			<category>Negative</category>
