@@ -1045,10 +1045,38 @@
       		<name>One With the Matrix III</name>
         	<hide />
 		</quality>
-	  
+	  <!--making Trog specific qualities only work for Trogs-->
+	  <quality>
+		  <name>Human Lifespan</name>
+		  <required>
+			  <oneof>
+				  <metatype>Troll</metatype>
+				  <metatype>Ork</metatype>
+			  </oneof>
+		  </required>
+	  </quality>
+	  <quality>
+		  <name>Nasty Trog</name>
+		  <required>
+			  <oneof>
+				  <metatype>Troll</metatype>
+				  <metatype>Ork</metatype>
+			  </oneof>
+		  </required>
+	  </quality>
+	  <quality>
+		  <name>Trog Traitor</name>
+		  <required>
+			  <oneof>
+				  <metatype>Troll</metatype>
+				  <metatype>Ork</metatype>
+			  </oneof>
+		  </required>
+	  </quality>
     </qualities>
 
 </chummer>
+
 
 
 
