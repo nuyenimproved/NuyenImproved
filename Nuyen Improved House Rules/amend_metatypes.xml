@@ -160,6 +160,11 @@
 		<bonus>
 			<lifestylecost />
 		</bonus>
+		<qualities>
+			<negative>
+				<quality>Pixie Staure</quality>
+			</negative>
+		</qualities>
     </metatype>
 		<!--
 	<metatype>
