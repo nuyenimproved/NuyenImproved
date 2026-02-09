@@ -130,6 +130,7 @@
 		</metatype>
 		</metatypes>
 	<!-- Implementing Pixie Nerf and Valkyries -->
+	<metatypes>
 	<metatype>
 		<name>Pixie</name>
 		<agimin>2</agimin>
@@ -232,4 +233,5 @@
 			</metavariant>
 		</metavariants>
     </metatype>
+	</metatypes>
 </chummer>
