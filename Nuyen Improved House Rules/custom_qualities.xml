@@ -182,12 +182,7 @@
 			<bonus />
 			<source>HR</source>
 			<page>0</page>
-			<required>
-				<oneof>
-				  <metavarient>Valkyrie</metavarient>
-				</oneof>
-			</required>	
-			<notes>These wings give the Valkyrie a flying speed of 2/6/+2. This character requires metahuman adjustment to properly use vehicles without a -1 like Dwarves and Elves.</notes>
+			<notes>This quality can only be taken by Valkyries. These wings give the Valkyrie a flying speed of 2/6/+2. This character requires metahuman adjustment to properly use vehicles without a -1 like Dwarves and Elves.</notes>
 		</quality>
 		<quality>
 			<id>bdabe9d2-f2c5-4ae8-ba9b-cc1f56381ffd</id>
@@ -197,12 +192,7 @@
 			<bonus />
 			<source>HR</source>
 			<page>0</page>
-			<required>
-				<oneof>
-				  <metatype>Pixie</metatype>
-				</oneof>
-			</required>	
-			<notes>Pixies can only use weapons that could normally be used one handed (i.e. Knives, Short Swords, Small Axes, Clubs, Batons, Maces with the exception of the Osmium Maces, Whips, Chakrams, Shields, Grenades, Pistols, and SMGs) but that have to two hand these weapons. So they treat these weapons like twohanded weapons for them. In addition, they raise the concealability of all of their items and weapons by +6 for the purposes of trying to palm them and hide them on their person.</notes>
+			<notes>This quality can only be taken by Pixies. Pixies can only use weapons that could normally be used one handed (i.e. Knives, Short Swords, Small Axes, Clubs, Batons, Maces with the exception of the Osmium Maces, Whips, Chakrams, Shields, Grenades, Pistols, and SMGs) but that have to two hand these weapons. So they treat these weapons like twohanded weapons for them. In addition, they raise the concealability of all of their items and weapons by +6 for the purposes of trying to palm them and hide them on their person.</notes>
 		</quality>
 
 		
