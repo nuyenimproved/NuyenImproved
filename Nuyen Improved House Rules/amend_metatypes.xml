@@ -157,11 +157,6 @@
 		<edgmin amendoperation="replace">1</edgmin>
 		<edgmax amendoperation="replace">6</edgmax>
 		<edgaug amendoperation="replace">6</edgaug>
-		<qualities>
-			<negative>
-				<quality>Pixie Stature</quality>
-			</negative>
-		</qualities>
 		<bonus>
 			<lifestylecost />
 		</bonus>
