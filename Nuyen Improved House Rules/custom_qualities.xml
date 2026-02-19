@@ -192,7 +192,7 @@
 			<bonus />
 			<source>SR5</source>
 			<page>1</page>
-			<notes>This quality can only be taken by Pixies. Pixies can only use weapons that could normally be used one handed (i.e. Knives, Short Swords, Small Axes, Clubs, Batons, Maces with the exception of the Osmium Maces, Whips, Chakrams, Shields, Grenades, Pistols, and SMGs) but that have to two hand these weapons. So they treat these weapons like twohanded weapons for them. In addition, they raise the concealability of all of their items and weapons by +6 for the purposes of trying to palm them and hide them on their person.</notes>
+			<notes>This quality can only be taken by Pixies. Pixies can only use weapons that could normally be used one handed (i.e. Knives, Short Swords, Small Axes, Clubs, Batons, Maces with the exception of the Osmium Maces, Whips, Chakrams, Shields, Grenades, Pistols, SMGs, and Bows) but that have to two hand these weapons. So they treat these weapons like two handed weapons for them, needing Iaijutsu to quickdraw the blades and treating the holsters for the guns as slings. In addition, they raise the concealability of all of their items and weapons by +6 for the purposes of trying to palm them and hide them on their person.</notes>
 		</quality>
 		<quality>
 			<id>a1c8107b-2a3a-479e-9bc1-55f887a3e1b4</id>
