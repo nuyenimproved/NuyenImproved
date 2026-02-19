@@ -1073,9 +1073,17 @@
 			  </oneof>
 		  </required>
 	  </quality>
+
+	  <!--Adding Note to Paraplegic to Say it Does Not Work With Pixies or Valkyries-->
+	  <quality>
+		  <name>Paraplegic</name>
+		  <notes>This quality should not provide any karma for Pixies or Valkyries and should only be taken after character creation as to not give your character any karma for taking it for flavor reasons.</notes>
+	  </quality>
+	  
     </qualities>
 
 </chummer>
+
 
 
 
