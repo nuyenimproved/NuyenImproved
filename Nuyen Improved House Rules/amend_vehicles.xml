@@ -345,6 +345,17 @@
                 </weaponmountdetails>
             </forbidden>
         </weaponmount>
+        <weaponmount>
+            <name>Micro (Drone)</name>
+            <hide/>
+        </weaponmount>
+        <weaponmount xpathfilter="contains(name, '(Drone)')">
+            <required amendoperation="replace">
+                <vehicledetails>
+                    <category operation="contains">Drones</category>
+                    <body operation="greaterthanequals">2</body>
+                </vehicledetails>
+            </required>
+        </weaponmount>
     </weaponmounts>
-
 </chummer>
