@@ -34,5 +34,17 @@
       <name>Plague Cloud</name>
       <hide />
     </power>
+
+      <!--Making Penetrating Strike Work With Surge and Bio Weapons-->
+    <power>
+      <id>70311f5c-a019-47b9-be21-e9a8d270e32e</id>
+      <name>Penetrating Strike</name>
+      <bonus>
+        <weaponcategoryap>
+            <category>Unarmed Combat</category>
+            <bonus>-Rating</bonus>
+        </weaponcategoryap>
+      </bonus>
+    </power>
   </powers>
 </chummer>
