@@ -41,7 +41,9 @@
       <name>Penetrating Strike</name>
       <bonus>
         <weaponcategoryap>
-            <category>Unarmed Combat</category>
+            <selectcategory>
+                <category>Unarmed Combat</category>
+            </selectcategory>
             <bonus>-Rating</bonus>
         </weaponcategoryap>
       </bonus>
