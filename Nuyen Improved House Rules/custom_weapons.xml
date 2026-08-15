@@ -42,4 +42,19 @@
 			<weapontype>pepperpunch</weapontype>
 		  </weapon>
 		</weapons>
+	<!-- Adding Penetrating Strike as an Accessory that may be added to Bio & Surge Weapons -->
+	<accessories>
+		<accessory>
+			<id>feb1a518-7d99-4996-821a-8101c84243b2</id>
+			<name>Penetrating Strike</name>
+			<mount />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>SG</source>
+			<page>173</page>
+			<rating>0</rating>
+			<ap>-1</ap>
+			<notes>This modification is only ment for Bioware and Surge added weapons and may only be taken a number of times equal to your ranks in Penetrating Stike.</notes>
+		</accessory>
+	</accessories>
 </chummer>
