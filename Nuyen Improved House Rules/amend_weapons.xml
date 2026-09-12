@@ -610,22 +610,7 @@
 			<mount amendoperation='replace' />
 		</accessory>
 
-		<!--Letting the Redline Get Chameleon Coating and Holsters -->
-		 <accessory>
-			 <name>Chameleon Coating (Pistol)</name>
-			 <required>
-				 <weapondetails>
-					 <OR>
-						 <conceal operation="lessthanequals">0</conceal>
-						 <category operation="contains">Pistol</category>
-						 <AND>
-							<category>Laser Weapons</category>
-							<conceal>2</conceal>
-						</AND>
-					 </OR>
-				 </weapondetails>
-			 </required>
-		 </accessory>
+		<!--Letting the Redline Get Holsters -->
 		<accessory>
 			<name>Concealable Holster</name>
 			<required>
