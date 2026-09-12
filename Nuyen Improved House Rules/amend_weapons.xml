@@ -613,7 +613,10 @@
 					 <OR>
 						 <conceal operation="lessthanequals">0</conceal>
 						 <category operation="contains">Pistol</category>
-						 <name>Ares Redline</name>
+						 <AND>
+							<category>Laser Weapons</category>
+							<conceal>2</conceal>
+						</AND>
 					 </OR>
 				 </weapondetails>
 			 </required>
