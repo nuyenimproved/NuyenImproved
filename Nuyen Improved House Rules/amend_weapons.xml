@@ -628,7 +628,10 @@
 						<category>Holdouts</category>
 						<category>Light Pistols</category>
 						<category>Heavy Pistols</category>
-						<name>Ares Redline</name>
+						<AND>
+							<category>Laser Weapons</category>
+							<conceal>2</conceal>
+						</AND>
 					</OR>
 				</weapondetails>
 			</required>
@@ -643,7 +646,10 @@
 						<category>Holdouts</category>
 						<category>Light Pistols</category>
 						<category>Heavy Pistols</category>
-						<name>Ares Redline</name>
+						<AND>
+							<category>Laser Weapons</category>
+							<conceal>2</conceal>
+						</AND>
 					</OR>
 				</weapondetails>
 			</required>
@@ -658,7 +664,10 @@
 						<category>Holdouts</category>
 						<category>Light Pistols</category>
 						<category>Heavy Pistols</category>
-						<name>Ares Redline</name>
+						<AND>
+							<category>Laser Weapons</category>
+							<conceal>2</conceal>
+						</AND>
 					</OR>
 				</weapondetails>
 			</required>
