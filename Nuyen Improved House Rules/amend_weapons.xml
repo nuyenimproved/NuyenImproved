@@ -604,5 +604,64 @@
 			<name>Long Barrel</name>
 			<mount amendoperation='replace' />
 		</accessory>
+
+		<!--Letting the Redline Get Chameleon Coating and Holsters -->
+		 <accessory>
+			 <name>Chameleon Coating (Pistol)</name>
+			 <required>
+				 <weapondetails>
+					 <OR>
+						 <conceal operation="lessthanequals">0</conceal>
+						 <category operation="contains">Pistol</category>
+						 <name>Ares Redline</name>
+					 </OR>
+				 </weapondetails>
+			 </required>
+		 </accessory>
+		<accessory>
+			<name>Concealable Holster</name>
+			<required>
+				<weapondetails>
+					<OR>
+						<conceal operation="lessthanequals">0</conceal>
+						<category>Tasers</category>
+						<category>Holdouts</category>
+						<category>Light Pistols</category>
+						<category>Heavy Pistols</category>
+						<name>Ares Redline</name>
+					</OR>
+				</weapondetails>
+			</required>
+		</accessory>
+		<accessory>
+			<name>Quick-Draw Holster</name>
+			<required>
+				<weapondetails>
+					<OR>
+						<conceal operation="lessthanequals">0</conceal>
+						<category>Tasers</category>
+						<category>Holdouts</category>
+						<category>Light Pistols</category>
+						<category>Heavy Pistols</category>
+						<name>Ares Redline</name>
+					</OR>
+				</weapondetails>
+			</required>
+		</accessory>
+		<accessory>
+			<name>Concealed Quick-Draw Holster</name>
+			<required>
+				<weapondetails>
+					<OR>
+						<conceal operation="lessthanequals">0</conceal>
+						<category>Tasers</category>
+						<category>Holdouts</category>
+						<category>Light Pistols</category>
+						<category>Heavy Pistols</category>
+						<name>Ares Redline</name>
+					</OR>
+				</weapondetails>
+			</required>
+		</accessory>
 	</accessories>
 </chummer>
