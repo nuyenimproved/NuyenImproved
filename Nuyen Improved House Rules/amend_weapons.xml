@@ -94,6 +94,11 @@
       		<name>Ares Redline</name>
            	<ap>-14</ap>
       		<ammo>12(c) or External Source</ammo>
+			<accessorymounts>
+				<mount>Top</mount>
+				<mount>Under</mount>
+				<mount>Side</mount>
+			</accessorymounts>
 	</weapon>
 
 	<weapon>
