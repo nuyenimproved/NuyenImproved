@@ -909,6 +909,11 @@
         <name>Elementalist (Water)</name>
         <hide />
       </quality>
+
+	  <quality>
+		  <name>Elemental Master</name>
+		  <hide />
+	  </quality>
       <!-- Region infected ban -->
 
       <quality  xpathfilter="starts-with(name, 'Infected:')">
