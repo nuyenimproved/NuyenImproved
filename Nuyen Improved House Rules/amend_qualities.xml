@@ -1050,6 +1050,10 @@
       		<name>One With the Matrix III</name>
         	<hide />
 		</quality>
+	  <quality>
+		  <name>The Twisted Way</name>
+		  <hide />
+	  </quality>
 	  <!--making Trog specific qualities only work for Trogs-->
 	  <quality>
 		  <name>Human Lifespan</name>
