@@ -34,5 +34,10 @@
       <name>Plague Cloud</name>
       <hide />
     </power>
+      <!--Adding note that radiation and polution elements are banned from elemental weapons-->
+       <power>
+           <name>Elemental Weapon</name>
+           <notes>Players may not select pollution or radiation elements with this power</notes>
+       </power>
   </powers>
 </chummer>
