@@ -1092,15 +1092,6 @@
 				  <speed>walk</speed>
 				  <val>3</val>
 			  </movementreplace>
-			  <movementreplace>
-				  <category>Ground</category>
-				  <speed>run</speed>
-				  <val>4</val>
-			  </movementreplace>
-			  <sprintbonus>
-				  <category>Ground</category>
-				  <val>100</val>
-			  </sprintbonus>
 		  </bonus>
 		  <notes>This quality should not provide any karma for Pixies or Valkyries and should only be taken after character creation as to not give your character any karma for taking it for flavor reasons.</notes>
 	  </quality>
