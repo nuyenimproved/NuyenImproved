@@ -578,6 +578,13 @@
 			<name>Narcoject PEP</name>
 			<ammo>10(c) or External Source</ammo>
 		</weapon>
+
+		<!--Making the Claymore the more AP version of the Nodachi -->
+		<weapon>
+			<name>Highland Forge Claymore</name>
+			<damage>({STR}+4)P</damage>
+			<ap>-7</ap>
+		</weapon>
 </weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
