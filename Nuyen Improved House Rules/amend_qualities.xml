@@ -1100,23 +1100,13 @@
 	  <quality>
 		  <name>Master Debater</name>
 		  <bonus>
-			  <swapskillspecattribute>
-				  <attribute>LOG</attribute>
-				  <limittoskill>Negotiation</limittoskill>
-			  </swapskillspecattribute>
-		  </bonus>
+				<swapskillattribute>
+					<attribute>LOG</attribute>
+					<limittoskill>Negotiation</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
 	  </quality>
 	  
     </qualities>
 
 </chummer>
-
-
-
-
-
-
-
-
-
-
