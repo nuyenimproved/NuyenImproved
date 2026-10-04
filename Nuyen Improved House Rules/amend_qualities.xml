@@ -1095,6 +1095,17 @@
 		  </bonus>
 		  <notes>This quality should not provide any karma for Pixies or Valkyries and should only be taken after character creation as to not give your character any karma for taking it for flavor reasons.</notes>
 	  </quality>
+
+	  <!--Made Master Debater work on all Negotiation checks-->
+	  <quality>
+		  <name>Master Debater</name>
+		  <bonus>
+			  <swapskillspecattribute>
+				  <attribute>LOG</attribute>
+				  <limittoskill>Negotiation</limittoskill>
+			  </swapskillspecattribute>
+		  </bonus>
+	  </quality>
 	  
     </qualities>
 
