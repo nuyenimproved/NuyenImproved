@@ -98,6 +98,22 @@
       		<page>1</page>
 			<notes>This will set the default character sheet atribute for the gunnery skill to LOG</notes>
 		  </quality>
+
+		<quality>
+			<id>64f73d94-f0de-451a-a54a-2b946f7a3595</id>
+			<name>Master Debater Fixed</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<bonus>
+				<swapskillattribute>
+					<attribute>LOG</attribute>
+					<limittoskill>Negotiation</limittoskill>
+				</swapskillattribute>
+		  	</bonus>
+			<source>CA</source>
+      		<page>151</page>
+			<notes>This will set the default character sheet atribute for the Negotiation skill to LOG</notes>
+		  </quality>
 		  
 		  <quality>
 			<id>fabe5461-999f-4066-8e18-3a5768d009f2</id>
@@ -204,21 +220,6 @@
 			<page>1</page>
 			<notes>This quality can only be taken by Dalakitnon. This allows the Dalakitnon to change their appearance to a different gender version of themselves over the course of a minute. This transformation requires concentration and makes them look like a version of themselves as the gender identity they choose to express but does not make them magically shape shift into another person. An outsider may confuse them with a sibling or family member of the gender expression they were familiar with if they met the Dalakitnon while they take a different form.</notes>
 		</quality>
-		<quality>
-			<id>64f73d94-f0de-451a-a54a-2b946f7a3595</id>
-			<name>Master Debater Fixed</name>
-			<karma>10</karma>
-			<category>Positive</category>
-			<bonus>
-				<swapskillattribute>
-					<attribute>LOG</attribute>
-					<limittoskill>Negotiation</limittoskill>
-				</swapskillattribute>
-		  	</bonus>
-			<source>CA</source>
-      		<page>151</page>
-			<notes>This will set the default character sheet atribute for the Negotiation skill to LOG</notes>
-		  </quality>
 		
 	</qualities>
 </chummer> 
