@@ -29,5 +29,26 @@
       <name>Coriolis</name>
       <hide />
     </complexform>
+      <!--Reducing the Costs of the Data Trails Complex Forms -->
+      <complexform>
+          <name>Derezz</name>
+          <fv>L-1</fv>
+      </complexform>
+      <complexform>
+          <name>FAQ</name>
+          <fv>L-3</fv>
+      </complexform>
+      <complexform>
+          <name>IC Tray</name>
+          <fv>L-5</fv>
+      </complexform>
+      <complexform>
+          <name>Redundancy</name>
+          <fv>L-3</fv>
+      </complexform>
+      <complexform>
+          <name>Misread Marks</name>
+          <fv>L-1</fv>
+      </complexform>
   </complexforms>
 </chummer>
