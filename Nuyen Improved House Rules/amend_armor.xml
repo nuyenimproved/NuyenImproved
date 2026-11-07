@@ -119,6 +119,11 @@
 			<name>Scout's Tux</name>
 			<hide />
 		</armor>
+		<!-- Fixing the critter armor note -->
+		<armor>
+			<name>Critter Body Armor</name>
+			<notes>Critters with the Armor Use trick (or shapechanged ‘runners!) may wear Critter Body Armour up to a maximum rating of Body + Strength + 3, but do not benefit from additional Armour Accessories.</notes>
+		</armor>
 	</armors>
 	<mods>
 		<mod>
