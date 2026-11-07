@@ -1101,6 +1101,15 @@
 		  <name>Master Debater</name>
 		  <hide />
 	  </quality>
+
+	  <!--Hide Master Debater-->
+	  <quality>
+		  <name>Dermal Alteration (Granite Shell)</name>
+		  <bonus>
+			  <armor group="0">6</armor>
+		  </bonus>
+		  <notes>The armor bonus from this quality does not provide hardened armor but now does stack with worn armor.</notes>
+	  </quality>
 	  
     </qualities>
 
