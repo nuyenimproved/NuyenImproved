@@ -585,6 +585,37 @@
 			<damage>({STR}+4)P</damage>
 			<ap>-7</ap>
 		</weapon>
+
+		<!--Making a collective Polearm specialty and giving specs for Krime Reaver & Krime Shiv -->
+		<weapon>
+			<name>Krime Bill</name>
+			<spec>Polearms</spec>
+		</weapon>
+
+		<weapon>
+			<name>Krime Shiv</name>
+			<spec>Knives</spec>
+		</weapon>
+
+		<weapon>
+			<name>Krime Reaver Pick</name>
+			<spec>Axes</spec>
+		</weapon>
+
+		<weapon>
+			<name>Krime Reaver Knob</name>
+			<spec>Haammers</spec>
+		</weapon>
+
+		<weapon>
+			<name>Pole Arm</name>
+			<spec>Polearms</spec>
+		</weapon>
+
+		<weapon>
+			<name>Cougar Collapsible Spear</name>
+			<spec>Polearms</spec>
+		</weapon>
 </weapons>
 
 	<!-- Region Remove the special modifications limits so that multiple weapons may be modded -->
