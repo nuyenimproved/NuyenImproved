@@ -69,6 +69,21 @@
 			<name>Pollutant Wave</name>
 			<hide />
 		</spell>
+		<spell>
+			<id>ffc5309a-9ae8-4770-aabd-2abe8246c0ec</id>
+			<name>Interference</name>
+			<hide />
+		</spell>
+		<spell>
+			<id>3f40c2bb-e66f-44dc-b801-d459a8d3a2b4</id>
+			<name>Interference</name>
+			<hide />
+		</spell>
+		<spell>
+			<id>65a02e9c-6472-406e-b5d1-17ec184c8ed2</id>
+			<name>Pulse</name>
+			<hide />
+		</spell>
 	</spells>
 </chummer>
 
